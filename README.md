@@ -1,2 +1,2 @@
 # RapTAT_UIMA
-RapTAT version that includes a UIMA package for annotating
+RapTAT version that includes a UIMA package for text annotation
