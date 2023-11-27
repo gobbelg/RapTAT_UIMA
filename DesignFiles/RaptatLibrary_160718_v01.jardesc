@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="D:/GobbelWorkspace/Subversion/branches/GlennWorkspace/Projects/Raptat_Ehost_AKI_140513/Resource/RaptatLibrary_160718_v01.jar"/>
+    <options buildIfNeeded="true" compress="false" descriptionLocation="/RapTAT_Checkout_SanjibForReview/DesignFiles/RaptatLibrary_160718_v01.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="true" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="/RapTAT_Checkout_GlennVersion/DesignFiles/RaptatLibraryManifest_160503_v04" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.textanalysis.preprocessors.contextanalysis.tokencontext.reasonnomeds"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/trunk/.euml2"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.conceptmapping.naivebayes"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.core.options"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/trunk/.umlproject"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;resources"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.importer.csv"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/build.xml"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.training"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.importer.schema"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.resultwriters.analysis.leaveoneout"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.core"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.importer.xml"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/junit.properties.template"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.importer.knowtator"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.analysis.bootstrap"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.core.deprecated"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.sequenceidentification.naivebayes"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.resultwriters.machinelearning"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/trunk/lexicon.txt"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.sequenceidentification.probabilistic"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.featurebuilding.labelers"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.analysis.crossvalidate"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/junit-logging.properties"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.sequenceidentification"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.textanalysis.preprocessors"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.tagging"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.deprecated"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.textanalysis.preprocessors.contextanalysis.tokencontext.general"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.analysis.scorer.algorithms"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.core.dialogs"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/trunk/.classpath"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.datastructures"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.featurebuilding"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.conceptmapping.attributemapping"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.conceptmapping.nonnaivebayes"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.textanalysis.preprocessors.contextanalysis.phrasecontext"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.resultwriters"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.training"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.conceptmapping.decisiontree"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.lexicaltools"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.exporters"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.conceptmapping.naivebayes.results"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.textanalysis.preprocessors.contextanalysis.tokencontext.negation"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/trunk/medlexicon.txt"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.textanalysis.preprocessors.contextanalysis.tokencontext.uncertainty"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/log4j.properties"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.helpers"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.featurebuilding.featurematchers"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/.project"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.resultwriters.machinelearning.naivebayes"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/trunk/tagdict"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.solutions"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/.classpath"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.datastructures.hashtrees"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.analysis.scorer"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/logging.properties"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.resultwriters.analysis.bootstrap"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.featurebuilding.labelingfilters.phrase"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.textanalysis.preprocessors.contextanalysis"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.featurebuilding.labelingfilters.sentence"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.textanalysis.preprocessors.contextanalysis.tokencontext"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.importer"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.importer.tab"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/trunk/log4j.properties"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/trunk/.project"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.conceptmapping"/>
+        <file path="/RapTAT_Checkout_SanjibForReview/.pmd"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.textanalysis"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.conceptmapping.naivebayes.bagofwords"/>
+        <javaElement handleIdentifier="=RapTAT_Checkout_SanjibForReview/trunk&lt;src.main.gov.va.vha09.grecc.raptat.gg.algorithms.dictionarybased"/>
+    </selectedElements>
+</jardesc>

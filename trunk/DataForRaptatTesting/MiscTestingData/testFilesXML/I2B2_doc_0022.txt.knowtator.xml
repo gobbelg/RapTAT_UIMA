@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="I2B2_doc_0022.txt">
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267426" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="443" end="450" />
+    <spannedText>[C@1b5b8520</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267426">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267427" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="571" end="590" />
+    <spannedText>[C@158105e8</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267427">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267428" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="551" end="561" />
+    <spannedText>[C@49aacd5f</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267428">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267429" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="533" end="545" />
+    <spannedText>[C@6c913dc1</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267429">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267430" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="853" end="861" />
+    <spannedText>[C@336d8196</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267430">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267431" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="1001" end="1020" />
+    <spannedText>[C@5a56b93a</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267431">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267432" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="1039" end="1062" />
+    <spannedText>[C@739abd2b</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267432">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267433" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="1092" end="1100" />
+    <spannedText>[C@33f98d58</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267433">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267434" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="1222" end="1241" />
+    <spannedText>[C@44aea710</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267434">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267435" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="1261" end="1282" />
+    <spannedText>[C@265a2eaa</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267435">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267436" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="1523" end="1535" />
+    <spannedText>[C@6aadae91</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267436">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267437" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="1737" end="1745" />
+    <spannedText>[C@309fe84e</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267437">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267438" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="2783" end="2791" />
+    <spannedText>[C@524c71d2</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267438">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267439" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="3692" end="3703" />
+    <spannedText>[C@18c4bc34</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267439">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267440" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="4317" end="4336" />
+    <spannedText>[C@1c2006a0</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267440">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267441" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="4287" end="4299" />
+    <spannedText>[C@7a9300cc</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267441">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267442" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="4776" end="4797" />
+    <spannedText>[C@49198ff2</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267442">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267443" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="5101" end="5113" />
+    <spannedText>[C@2d397e5c</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267443">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267444" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="5189" end="5197" />
+    <spannedText>[C@1996e136</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267444">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267445" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="5425" end="5448" />
+    <spannedText>[C@9bad5a</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267445">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267446" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="6122" end="6130" />
+    <spannedText>[C@6c91f005</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267446">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267447" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="6385" end="6393" />
+    <spannedText>[C@61250ff2</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267447">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267448" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="6505" end="6513" />
+    <spannedText>[C@483a0ab1</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267448">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <annotation>
+    <mention id="RAPTAT_INSTANCE_1341331267449" />
+    <annotator id="RAPTAT">RAPTAT</annotator>
+    <span start="6529" end="6537" />
+    <spannedText>[C@5a940f82</spannedText>
+  </annotation>
+  <classMention id="RAPTAT_INSTANCE_1341331267449">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+</annotations>
+

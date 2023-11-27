@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+    
+  <primitive>false</primitive>
+    
+  <delegateAnalysisEngineSpecifiers>
+        
+    <delegateAnalysisEngine key="ResultWriterDescriptor">
+            
+      <import location="ResultWriterDescriptor.xml"/>
+          
+    </delegateAnalysisEngine>
+        
+    <delegateAnalysisEngine key="PhraseFinderDescriptor">
+            
+      <import location="PhraseFinderDescriptor.xml"/>
+          
+    </delegateAnalysisEngine>
+        
+    <delegateAnalysisEngine key="TextAnalysisEngineDescriptor">
+            
+      <import location="TextAnalysisEngineDescriptor.xml"/>
+          
+    </delegateAnalysisEngine>
+        
+    <delegateAnalysisEngine key="ConceptMapperDescriptor">
+            
+      <import location="ConceptMapperDescriptor.xml"/>
+          
+    </delegateAnalysisEngine>
+      
+  </delegateAnalysisEngineSpecifiers>
+    
+  <analysisEngineMetaData>
+        
+    <name>UIMAAggregateAnnotator</name>
+        
+    <description/>
+        
+    <version>1.0</version>
+        
+    <vendor/>
+        
+    <configurationParameters searchStrategy="language_fallback"/>
+        
+    <configurationParameterSettings/>
+        
+    <flowConstraints>
+            
+      <fixedFlow>
+                
+        <node>TextAnalysisEngineDescriptor</node>
+                
+        <node>PhraseFinderDescriptor</node>
+                
+        <node>ConceptMapperDescriptor</node>
+                
+        <node>ResultWriterDescriptor</node>
+              
+      </fixedFlow>
+          
+    </flowConstraints>
+        
+    <typePriorities/>
+        
+    <fsIndexCollection/>
+        
+    <capabilities>
+            
+      <capability>
+                
+        <inputs/>
+                
+        <outputs/>
+                
+        <languagesSupported/>
+              
+      </capability>
+          
+    </capabilities>
+        
+    <operationalProperties>
+            
+      <modifiesCas>true</modifiesCas>
+            
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+            
+      <outputsNewCASes>false</outputsNewCASes>
+          
+    </operationalProperties>
+      
+  </analysisEngineMetaData>
+    
+  <resourceManagerConfiguration>
+        
+    <externalResources>
+            
+      <externalResource>
+                
+        <name>Solution</name>
+                
+        <description/>
+                
+        <fileResourceSpecifier>
+                    
+          <fileUrl>file:/C:/Users/noriegrt/Documents/ADHAF_UIMA/RaptatSolution_211002_202945.soln</fileUrl>
+                  
+        </fileResourceSpecifier>
+                
+        <implementationName>src.main.gov.va.vha09.grecc.raptat.rn.uima.resourceinterfaces.UIMAAlgorithmSolution</implementationName>
+                
+        <!--implementationName>src.main.gov.va.vha09.grecc.raptat.gg.algorithms.AlgorithmSolution</implementationName-->
+              
+      </externalResource>
+          
+    </externalResources>
+        
+    <externalResourceBindings>
+            
+      <externalResourceBinding>
+                
+        <key>PhraseFinderDescriptor/Solution</key>
+                
+        <resourceName>Solution</resourceName>
+              
+      </externalResourceBinding>
+            
+      <externalResourceBinding>
+                
+        <key>TextAnalysisEngineDescriptor/Solution</key>
+                
+        <resourceName>Solution</resourceName>
+              
+      </externalResourceBinding>
+            
+      <externalResourceBinding>
+                
+        <key>ConceptMapperDescriptor/Solution</key>
+                
+        <resourceName>Solution</resourceName>
+              
+      </externalResourceBinding>
+          
+    </externalResourceBindings>
+      
+  </resourceManagerConfiguration>
+  
+</analysisEngineDescription>

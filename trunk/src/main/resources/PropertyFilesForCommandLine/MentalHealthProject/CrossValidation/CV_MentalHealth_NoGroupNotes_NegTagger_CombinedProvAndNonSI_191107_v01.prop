@@ -1,0 +1,86 @@
+#
+# Note that this property file specifies use of a special "Mental Health" attribute conflict manager
+# so that it does not use probabistic method of assertionstatus attribute assignment.
+#
+# CommentMarker	Field	ShortOption
+#	ANNOTATION_APP_SHORTOPT	a
+#	ATTRIBUTE_TAGGER_PATHS_SHORTOPT	b
+#	TRAINING_CONCEPTS_FILEPATH_SHORTOPT	c
+#	SCORING_CONCEPTS_FILEPATH_SHORTOPT l
+#	DICTIONARY_FILEPATH_SHORTOPT	d
+#	CONTEXT_SIFTER_TEXT_SHORTOPT	e
+#	CONTEXT_SIFTER_FILE_SHORTOPT	f
+#	ATTRIBUTE_CONFLICT_MANAGERS_SHORTOPT	g
+#	HELP_SHORTOPT	h
+#	SENTENCE_FILTER_SHORTOPT	i
+#	STOP_INDEX_SHORTOPT	j
+#	TOKEN_SEQUENCE_FINDER_METHOD_SHORTOPT	m
+#	PROPERTIES_PARSE_LONGOPT	p
+#	TRAINING_DATA_FILEPATH_SHORTOPT	r
+#	SCHEMA_FILEPATH_SHORTOPT	s
+#	TRAINING_GROUP_SIZE_SHORTOPT	u
+#	SECTION_MATCH_TEXT_SHORTOPT	v
+#	SECTION_MATCH_FILE_SHORTOPT	w 
+#	START_INDEX_SHORTOPT	x
+#	SENTENCE_MATCH_TEXT_SHORTOPT	y
+#	SENTENCE_MATCH_FILE_SHORTOPT	z
+
+# Path to training data file with groups for cv.
+# Note that the file is assumed to be in the same location as the directory containing
+# the text and xml files with each file (not path) list in the '.csv' file of the groups.
+-r "H:\AllFolders\MHA_NLP\SuicidalIdeation_CVUsingGroups_1_to_3_190321\TxtAndXmlForCrossValidation_AssertionAnnotationFixed_190617\CrossValidationGroupList_NoGroupNotes_v01_190321.csv"
+
+# Path to schema file
+-s "H:\AllFolders\MHA_NLP\SuicidalIdeation_CVUsingGroups_1_to_3_190321\TxtAndXmlForCrossValidation_AssertionAnnotationFixed_190617\CV_ConfigurationFiles\projectschema_ProvNonProvSI_Combined_AssStatFix_190610.xml"
+
+# Training group size
+-u 0
+
+# Application used to create annotations (either Knowtator or eHost)
+-a eHost
+
+# Path to concepts used in training
+-c "H:\AllFolders\MHA_NLP\SuicidalIdeation_CVUsingGroups_1_to_3_190321\TxtAndXmlForCrossValidation_AssertionAnnotationFixed_190617\CV_ConfigurationFiles\conceptList_Training_ProvNonProvSI_Combined_190509.txt"
+
+# Path to concepts used in scoring
+-l "H:\AllFolders\MHA_NLP\SuicidalIdeation_CVUsingGroups_1_to_3_190321\TxtAndXmlForCrossValidation_AssertionAnnotationFixed_190617\CV_ConfigurationFiles\conceptList_Scoring_ProvNonProvSI_Combined_190509.txt"
+
+# Path to dictionary file
+-d "H:\AllFolders\MHA_NLP\SuicidalIdeation_CVUsingGroups_1_to_3_190321\TxtAndXmlForCrossValidation_AssertionAnnotationFixed_190617\CV_ConfigurationFiles\SI_Lexicon_191107_v01.txt"
+
+# Describe ContextSifter, specific fields CONCEPTS, FORBIDDEN, REQUIRED, FORBIDDEN_DISTANCE_REVERSE, FORBIDDEN_DISTANCE_FORWARD, REQUIRED_DISTANCE_REVERSE, REQUIRED_DISTANCE_FORWARD
+#-e "order:2 concepts:00_NULL_01 context:00_NULL_02 required_distance_reverse:0 required_distance_forward:0 ^ order:1 concepts:13_radiographiccharacteristics, 20_cancerdetermination context:01_liver||02_liverlobe required_distance_reverse:1  required_distance_forward:1 ^ order:0 concepts:05_massfocalarea context:01_liver||02_liverlobe required_distance_reverse:1  required_distance_forward:1"
+
+# Start index for options for running cv
+-x 56
+
+# Stop index for options for running cv (option at stop index is excluded)
+-j 57
+
+# Paths to attribute taggers
+-b "H:\AllFolders\MHA_NLP\SuicidalIdeation_CVUsingGroups_1_to_3_190321\TxtAndXmlForCrossValidation_AssertionAnnotationFixed_190617\CV_ConfigurationFiles\CueScopeSolution_Rd00_CSTrainingFeatures_UnprocessedTokens_v01_160721_175700.atsn"
+
+# Fully qualified names representing attribute conflict managers
+-g src.main.gov.va.vha09.grecc.raptat.gg.core.attributeconflictmanagers.MentalHealthAssertionConflictManager
+
+# Token sequence finder method
+-m PROBABILISTIC
+
+# Annotation group post processors - take an AnnotationGroup object and process it after RapTAT and dictionary annotation is complete
+# The post processor should implement the AnnotationGroupPostProcessor interface
+#-t "src.main.gov.va.vha09.grecc.raptat.gg.core.annotation.postprocessing.CirrhosisPostProcessor"
+
+
+#### Use only option -v OR -w (or neither), but not both ####
+# Section matcher text
+#-v
+# OR
+# Section matcher file path
+#-w
+
+#### Use only option -y OR -z (or neither), but not both ####
+# Sentence matcher text
+#-y
+# OR
+# Sentence matcher file path
+#-z

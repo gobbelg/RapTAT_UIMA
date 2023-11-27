@@ -1,0 +1,10 @@
+1.	This contains most of the changes made to the code to allow for building of token phrase objects via the 
+	processText() method of TextAnalyzer objects.
+	
+2.	The RaptatToken within the package src.main.gov.va.vha09.grecc.raptat.gg.datastructures.annotationcomponents
+	was modified to implement Comparable for use when sorting via Collections.sort.  Note that this may overlap
+	some of the various interfaces related to RaptatToken within package src.test.gov.va.vha09.grecc.raptat.dw.
+	
+3.	The TextAnalyzer class was also changed to allow for generation of phrases.
+
+4.	The RaptatDocument class was modified to store tokenPhrase objects as a field;

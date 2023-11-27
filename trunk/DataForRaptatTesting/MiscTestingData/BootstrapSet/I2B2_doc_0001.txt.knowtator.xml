@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="I2B2_doc_0001.txt">
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10000" />
+    <span start="291" end="315" />
+    <spannedText>mitral valve replacement</spannedText>
+    <creationDate>Mon Jun 25 13:14:58 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10002" />
+    <span start="318" end="337" />
+    <spannedText>atrial
+fibrillation</spannedText>
+    <creationDate>Mon Jun 25 13:15:00 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10004" />
+    <span start="486" end="510" />
+    <spannedText>congestive
+heart failure</spannedText>
+    <creationDate>Mon Jun 25 13:15:08 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10006" />
+    <span start="516" end="546" />
+    <spannedText>ejection fraction of 45% to 50</spannedText>
+    <creationDate>Mon Jun 25 13:15:11 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10008" />
+    <span start="1568" end="1592" />
+    <spannedText>congestive heart failure</spannedText>
+    <creationDate>Mon Jun 25 13:15:38 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10012" />
+    <span start="1685" end="1709" />
+    <spannedText>congestive heart failure</spannedText>
+    <creationDate>Mon Jun 25 13:15:51 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10014" />
+    <span start="1715" end="1742" />
+    <spannedText>ejection fraction of 45% to</spannedText>
+    <creationDate>Mon Jun 25 13:15:53 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10016" />
+    <span start="1748" end="1804" />
+    <spannedText>rheumatic valvular disease with mitral valve replacement</spannedText>
+    <creationDate>Mon Jun 25 13:15:58 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10018" />
+    <span start="1809" end="1831" />
+    <spannedText>tricuspid valve repair</spannedText>
+    <creationDate>Mon Jun 25 13:16:00 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10020" />
+    <span start="1833" end="1852" />
+    <spannedText>atrial fibrillation</spannedText>
+    <creationDate>Mon Jun 25 13:16:01 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10022" />
+    <span start="2013" end="2026" />
+    <spannedText>heart
+disease</spannedText>
+    <creationDate>Mon Jun 25 13:16:07 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10024" />
+    <span start="2326" end="2347" />
+    <spannedText>blood pressure 153/74</spannedText>
+    <creationDate>Mon Jun 25 13:16:22 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10028" />
+    <span start="1221" end="1236" />
+    <spannedText>Caltrate plus D</spannedText>
+    <creationDate>Mon Jun 25 13:16:37 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10030" />
+    <span start="1259" end="1265" />
+    <spannedText>Lantus</spannedText>
+    <creationDate>Mon Jun 25 13:16:38 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10032" />
+    <span start="1286" end="1293" />
+    <spannedText>NovoLog</spannedText>
+    <creationDate>Mon Jun 25 13:16:39 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10034" />
+    <span start="1330" end="1335" />
+    <spannedText>Imdur</spannedText>
+    <creationDate>Mon Jun 25 13:16:42 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10036" />
+    <span start="1351" end="1361" />
+    <spannedText>amlodipine</spannedText>
+    <creationDate>Mon Jun 25 13:16:44 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10038" />
+    <span start="1376" end="1386" />
+    <spannedText>furosemide</spannedText>
+    <creationDate>Mon Jun 25 13:16:47 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10040" />
+    <span start="1401" end="1410" />
+    <spannedText>valsartan</spannedText>
+    <creationDate>Mon Jun 25 13:16:50 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10042" />
+    <span start="1426" end="1434" />
+    <spannedText>warfarin</spannedText>
+    <creationDate>Mon Jun 25 13:16:52 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10044" />
+    <span start="1448" end="1460" />
+    <spannedText>iron sulfate</spannedText>
+    <creationDate>Mon Jun 25 13:16:55 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10046" />
+    <span start="1485" end="1497" />
+    <spannedText>multivitamin</spannedText>
+    <creationDate>Mon Jun 25 13:16:57 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10048" />
+    <span start="2615" end="2626" />
+    <spannedText>bradycardia</spannedText>
+    <creationDate>Mon Jun 25 13:17:18 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10050" />
+    <span start="2675" end="2727" />
+    <spannedText>S1 plus S2 with
+3/6 systolic murmur heard throughout</spannedText>
+    <creationDate>Mon Jun 25 13:17:29 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10052" />
+    <span start="2733" end="2755" />
+    <spannedText>mechanical sounding S2</spannedText>
+    <creationDate>Mon Jun 25 13:17:32 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10054" />
+    <span start="2867" end="2913" />
+    <spannedText>venous stasis
+changes in her lower extremities</spannedText>
+    <creationDate>Mon Jun 25 13:17:40 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10056" />
+    <span start="2927" end="2941" />
+    <spannedText>Feet were cool</spannedText>
+    <creationDate>Mon Jun 25 13:17:43 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10058" />
+    <span start="3096" end="3120" />
+    <spannedText>atrial fibrillation with</spannedText>
+    <creationDate>Mon Jun 25 13:17:51 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10062" />
+    <span start="3121" end="3146" />
+    <spannedText>slow ventricular
+response</spannedText>
+    <creationDate>Mon Jun 25 13:18:07 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10064" />
+    <span start="3171" end="3182" />
+    <spannedText>widened QRS</spannedText>
+    <creationDate>Mon Jun 25 13:18:12 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10066" />
+    <span start="3287" end="3302" />
+    <spannedText>pulmonary edema</spannedText>
+    <creationDate>Mon Jun 25 13:18:20 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10068" />
+    <span start="3305" end="3331" />
+    <spannedText>stable marked
+cardiomegaly</spannedText>
+    <creationDate>Mon Jun 25 13:18:23 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10070" />
+    <span start="4543" end="4549" />
+    <spannedText>Nexium</spannedText>
+    <creationDate>Mon Jun 25 13:18:55 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10072" />
+    <span start="4577" end="4586" />
+    <spannedText>vitamin K</spannedText>
+    <creationDate>Mon Jun 25 13:18:58 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10074" />
+    <span start="4697" end="4702" />
+    <spannedText>Lasix</spannedText>
+    <creationDate>Mon Jun 25 13:19:01 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10076" />
+    <span start="5617" end="5624" />
+    <spannedText>Aranesp</spannedText>
+    <creationDate>Mon Jun 25 13:19:20 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10078" />
+    <span start="5745" end="5750" />
+    <spannedText>Lasix</spannedText>
+    <creationDate>Mon Jun 25 13:19:22 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10080" />
+    <span start="6788" end="6793" />
+    <spannedText>Lasix</spannedText>
+    <creationDate>Mon Jun 25 13:19:47 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10082" />
+    <span start="7248" end="7276" />
+    <spannedText>Antihypertensive medications</spannedText>
+    <creationDate>Mon Jun 25 13:20:09 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10084" />
+    <span start="7356" end="7380" />
+    <spannedText>systolic
+blood pressures</spannedText>
+    <creationDate>Mon Jun 25 13:20:12 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10086" />
+    <span start="7436" end="7486" />
+    <spannedText>atrial fibrillation with slow
+ventricular response</spannedText>
+    <creationDate>Mon Jun 25 13:20:20 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10088" />
+    <span start="7751" end="7760" />
+    <spannedText>pacemaker</spannedText>
+    <creationDate>Mon Jun 25 13:20:33 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10090" />
+    <span start="7869" end="7875" />
+    <spannedText>Lantus</spannedText>
+    <creationDate>Mon Jun 25 13:20:37 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10092" />
+    <span start="7937" end="7944" />
+    <spannedText>insulin</spannedText>
+    <creationDate>Mon Jun 25 13:20:40 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10098" />
+    <span start="8750" end="8768" />
+    <spannedText>bibasilar crackles</spannedText>
+    <creationDate>Mon Jun 25 13:21:30 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10100" />
+    <span start="8772" end="8806" />
+    <spannedText>6 systolic murmur heard throughout</spannedText>
+    <creationDate>Mon Jun 25 13:21:40 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10102" />
+    <span start="8814" end="8827" />
+    <spannedText>mechanical S2</spannedText>
+    <creationDate>Mon Jun 25 13:21:44 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10104" />
+    <span start="8868" end="8897" />
+    <spannedText>chronic venous stasis changes</spannedText>
+    <creationDate>Mon Jun 25 13:21:52 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10106" />
+    <span start="8946" end="8974" />
+    <spannedText>Decreased right radial pulse</spannedText>
+    <creationDate>Mon Jun 25 13:22:04 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10108" />
+    <span start="9073" end="9080" />
+    <spannedText>Norvasc</spannedText>
+    <creationDate>Mon Jun 25 13:22:10 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10110" />
+    <span start="9094" end="9102" />
+    <spannedText>Caltrate</spannedText>
+    <creationDate>Mon Jun 25 13:22:12 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10112" />
+    <span start="9135" end="9142" />
+    <spannedText>Aranesp</spannedText>
+    <creationDate>Mon Jun 25 13:22:14 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10114" />
+    <span start="9165" end="9172" />
+    <spannedText>Lovenox</spannedText>
+    <creationDate>Mon Jun 25 13:22:17 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10116" />
+    <span start="9279" end="9287" />
+    <spannedText>coumadin</spannedText>
+    <creationDate>Mon Jun 25 13:22:19 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10118" />
+    <span start="9292" end="9298" />
+    <spannedText>Nexium</spannedText>
+    <creationDate>Mon Jun 25 13:22:21 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10120" />
+    <span start="9356" end="9361" />
+    <spannedText>Lasix</spannedText>
+    <creationDate>Mon Jun 25 13:22:24 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10122" />
+    <span start="9319" end="9334" />
+    <spannedText>ferrous sulfate</spannedText>
+    <creationDate>Mon Jun 25 13:22:26 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10124" />
+    <span start="9382" end="9396" />
+    <spannedText>insulin aspart</spannedText>
+    <creationDate>Mon Jun 25 13:22:29 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10126" />
+    <span start="9424" end="9431" />
+    <spannedText>insulin</spannedText>
+    <creationDate>Mon Jun 25 13:22:32 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10128" />
+    <span start="9432" end="9438" />
+    <spannedText>Lantus</spannedText>
+    <creationDate>Mon Jun 25 13:22:34 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10130" />
+    <span start="9489" end="9498" />
+    <spannedText>sevelamer</spannedText>
+    <creationDate>Mon Jun 25 13:22:36 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10132" />
+    <span start="9463" end="9468" />
+    <spannedText>Imdur</spannedText>
+    <creationDate>Mon Jun 25 13:22:38 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10134" />
+    <span start="9520" end="9532" />
+    <spannedText>multivitamin</spannedText>
+    <creationDate>Mon Jun 25 13:22:40 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10136" />
+    <span start="9552" end="9561" />
+    <spannedText>valsartan</spannedText>
+    <creationDate>Mon Jun 25 13:22:42 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="RaptatBaseProject_Instance_10138" />
+    <span start="9586" end="9594" />
+    <spannedText>Coumadin</spannedText>
+    <creationDate>Mon Jun 25 13:22:45 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11742" />
+    <span start="835" end="843" />
+    <spannedText>Levaquin</spannedText>
+    <creationDate>Mon Jun 25 15:04:42 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11744" />
+    <span start="2947" end="2974" />
+    <spannedText>diminished DP and PT pulses</spannedText>
+    <creationDate>Mon Jun 25 15:05:00 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11746" />
+    <span start="2517" end="2540" />
+    <spannedText>tricuspid regurgitation</spannedText>
+    <creationDate>Mon Jun 25 15:05:16 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11748" />
+    <span start="2663" end="2672" />
+    <spannedText>irregular</spannedText>
+    <creationDate>Mon Jun 25 15:05:24 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11750" />
+    <span start="4400" end="4421" />
+    <spannedText>blood pressure 127/66</spannedText>
+    <creationDate>Mon Jun 25 15:06:07 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11752" />
+    <span start="6069" end="6084" />
+    <spannedText>Caltrate plus D</spannedText>
+    <creationDate>Mon Jun 25 15:06:27 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11754" />
+    <span start="6087" end="6099" />
+    <spannedText>multivitamin</spannedText>
+    <creationDate>Mon Jun 25 15:06:29 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11756" />
+    <span start="6150" end="6157" />
+    <spannedText>Aranesp</spannedText>
+    <creationDate>Mon Jun 25 15:06:31 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11758" />
+    <span start="6186" end="6195" />
+    <spannedText>sevelamer</spannedText>
+    <creationDate>Mon Jun 25 15:06:33 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11760" />
+    <span start="6398" end="6417" />
+    <spannedText>right hand coolness</spannedText>
+    <creationDate>Mon Jun 25 15:06:44 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11762" />
+    <span start="6420" end="6428" />
+    <spannedText>numbness</spannedText>
+    <creationDate>Mon Jun 25 15:06:46 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11764" />
+    <span start="6435" end="6443" />
+    <spannedText>weakness</spannedText>
+    <creationDate>Mon Jun 25 15:06:49 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11766" />
+    <span start="6825" end="6840" />
+    <spannedText>volume overload</spannedText>
+    <creationDate>Mon Jun 25 15:06:54 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11768" />
+    <span start="7062" end="7067" />
+    <spannedText>Lasix</spannedText>
+    <creationDate>Mon Jun 25 15:07:02 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11770" />
+    <span start="7598" end="7622" />
+    <spannedText>junctional escape rhythm</spannedText>
+    <creationDate>Mon Jun 25 15:07:09 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11772" />
+    <span start="8411" end="8430" />
+    <spannedText>Right hand weakness</spannedText>
+    <creationDate>Mon Jun 25 15:07:24 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11774" />
+    <span start="8433" end="8441" />
+    <spannedText>numbness</spannedText>
+    <creationDate>Mon Jun 25 15:07:26 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11776" />
+    <span start="8448" end="8456" />
+    <spannedText>coolness</spannedText>
+    <creationDate>Mon Jun 25 15:07:27 CDT 2012</creationDate>
+  </annotation>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11744">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10080">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11746">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10082">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10076">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11742">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10078">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10088">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10090">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10084">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10086">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10098">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10092">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10104">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10106">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10100">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10102">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10050">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11776">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10048">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11774">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10046">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11772">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10044">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11770">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10058">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11768">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10056">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11766">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10054">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11764">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10052">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10066">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11762">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10064">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11760">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10062">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11758">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11756">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10074">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11754">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10072">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11752">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10070">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11750">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10068">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11748">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10012">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10014">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10016">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10018">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10020">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10022">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10024">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10028">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10030">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10032">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10034">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10036">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10038">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10040">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10042">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10118">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10116">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10122">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10120">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10110">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10108">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10114">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10112">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10134">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10132">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10002">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10138">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10000">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10136">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10006">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10126">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10004">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10124">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10130">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10008">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="RaptatBaseProject_Instance_10128">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+</annotations>
+

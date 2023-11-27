@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="textDocument_01.txt">
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_14" />
+    <span start="182" end="200" />
+    <spannedText>beatae vitae dicta</spannedText>
+    <creationDate>Wed Apr 11 22:19:27 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_16" />
+    <annotator id="PerformanceScorerProject_Instance_10000">Julia , SLC</annotator>
+    <span start="688" end="719" />
+    <spannedText>iquid ex ea commodi consequatur</spannedText>
+    <creationDate>Wed Apr 11 22:19:33 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_18" />
+    <annotator id="PerformanceScorerProject_Instance_10001">Susan , Salt Lake</annotator>
+    <span start="1342" end="1361" />
+    <spannedText>quod maxime placeat</spannedText>
+    <creationDate>Wed Apr 11 22:19:38 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_20" />
+    <span start="1659" end="1713" />
+    <spannedText>voluptatibus maiores alias consequatur aut perferendis</spannedText>
+    <creationDate>Wed Apr 11 22:19:42 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_22" />
+    <annotator id="PerformanceScorerProject_Instance_10000">Julia , SLC</annotator>
+    <span start="218" end="233" />
+    <spannedText>Nemo enim ipsam</spannedText>
+    <creationDate>Wed Apr 11 22:20:11 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_26" />
+    <span start="726" end="739" />
+    <spannedText>autem vel eum</spannedText>
+    <creationDate>Wed Apr 11 22:20:22 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_30" />
+    <span start="1097" end="1120" />
+    <spannedText>similique sunt in culpa</spannedText>
+    <creationDate>Wed Apr 11 22:21:12 CDT 2012</creationDate>
+  </annotation>
+  <classMention id="PerformanceScorerProject_Instance_22">
+    <mentionClass id="Roman">Roman</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_20">
+    <mentionClass id="Greek">Greek</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_30">
+    <mentionClass id="Roman">Roman</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_26">
+    <mentionClass id="Roman">Roman</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_14">
+    <mentionClass id="Greek">Greek</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_18">
+    <mentionClass id="Greek">Greek</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_16">
+    <mentionClass id="Greek">Greek</mentionClass>
+  </classMention>
+</annotations>
+

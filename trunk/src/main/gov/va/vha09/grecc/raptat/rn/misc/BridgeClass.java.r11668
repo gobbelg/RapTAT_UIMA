@@ -1,0 +1,11 @@
+package src.main.gov.va.vha09.grecc.raptat.rn.misc;
+
+import java.util.ArrayList;
+
+public class BridgeClass {
+	public static ArrayList<SilkAnnotation> silkPredictions = new ArrayList<SilkAnnotation>();
+	public static String nextDocName = "";
+	public static boolean runningRaptat = false;
+	public static boolean suggestionsInputted = true;
+	public static boolean runningSuggestions = false;
+}

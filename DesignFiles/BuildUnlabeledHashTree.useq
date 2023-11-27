@@ -1,0 +1,74 @@
+<sequence-diagram version="1.0.11" icons="false">  
+  <object id="1" language="java" 
+    name="src.main.gov.va.vha09.grecc.raptat.algorithms.sequenceidentification.probabilistic.ProbabilisticSequenceIDTrainer" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/algorithms/sequenceidentification/probabilistic/ProbabilisticSequenceIDTrainer.java" 
+    binary="false" label="probabilisticSequenceIDTrainer" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="235" y="0"/>    
+    <execution id="2">      
+      <position height="254" width="383" x="5" y="86"/>    
+    </execution>    
+    <execution id="4">      
+      <position height="191" width="383" x="5" y="128"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="java.util.Iterator" project="I2B2_Importer" 
+    file="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar" binary="true" 
+    label="docAnnotations" type="interface" autoSize="true">    
+    <position height="-1" width="-1" x="759" y="0"/>    
+    <execution id="6">      
+      <position height="21" width="92" x="392" y="161"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" name="src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/datastructures/AnnotatedPhrase.java" binary="false" 
+    label="curSentence of docSentences" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="784" y="0"/>    
+    <execution id="8">      
+      <position height="21" width="238" x="488" y="197"/>    
+    </execution>  
+  </object>  
+  <object id="15" language="java" name="java.util.Collections" project="I2B2_Importer" 
+    file="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar" binary="true" label="Static" 
+    type="class" autoSize="true">    
+    <position height="-1" width="-1" x="876" y="0"/>    
+    <execution id="10">      
+      <position height="21" width="85" x="730" y="236"/>    
+    </execution>  
+  </object>  
+  <object id="16" language="java" name="java.util.ArrayList" project="I2B2_Importer" 
+    file="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar" binary="true" 
+    label="sentenceTokens" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="940" y="0"/>    
+    <execution id="12">      
+      <position height="21" width="97" x="819" y="277"/>    
+    </execution>  
+  </object>  
+  <object id="17" language="java" name="src.main.gov.va.vha09.grecc.raptat.datastructures.Token" 
+    project="RapTAT_Checkout" file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/datastructures/Token.java" 
+    binary="false" label="curToken" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="790" y="0"/>  
+  </object>  
+  <message id="3" 
+    operation="buildUnlabeledHashTree(java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase&gt;,java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase&gt;,java.lang.String):src.main.gov.va.vha09.grecc.raptat.datastructures.hashtrees.UnlabeledHashTree">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="5" operation="next():E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </message>  
+  <message id="7" operation="getProcessedTokens():java.util.List&lt;Token&gt;">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="8"/>  
+  </message>  
+  <message id="9" operation="sort(java.util.List&lt;T&gt;,java.util.Comparator&lt;? super T&gt;):void">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" operation="get(int):E">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>
+</sequence-diagram>

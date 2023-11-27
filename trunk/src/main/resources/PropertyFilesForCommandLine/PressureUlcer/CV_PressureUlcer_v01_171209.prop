@@ -1,0 +1,75 @@
+# CommentMarker	Field	ShortOption
+#	ANNOTATION_APP_SHORTOPT	a
+#	ATTRIBUTE_TAGGER_PATHS_SHORTOPT	b
+#	CONCEPTS_FILEPATH_SHORTOPT	c
+#	DICTIONARY_FILEPATH_SHORTOPT	d
+#	CONTEXT_SIFTER_TEXT_SHORTOPT	e
+#	CONTEXT_SIFTER_FILE_SHORTOPT	f
+#	ATTRIBUTE_CONFLICT_MANAGERS_SHORTOPT	g
+#	HELP_SHORTOPT	h
+#	SENTENCE_FILTER_SHORTOPT	i
+#	STOP_INDEX_SHORTOPT	j
+#	TOKEN_SEQUENCE_FINDER_METHOD_SHORTOPT	m
+#	PROPERTIES_PARSE_LONGOPT	p
+#	TRAINING_DATA_FILEPATH_SHORTOPT	r
+#	SCHEMA_FILEPATH_SHORTOPT	s
+#	TRAINING_GROUP_SIZE_SHORTOPT	u
+#	SECTION_MATCH_TEXT_SHORTOPT	v
+#	SECTION_MATCH_FILE_SHORTOPT	w
+#	START_INDEX_SHORTOPT	x
+#	SENTENCE_MATCH_TEXT_SHORTOPT	y
+#	SENTENCE_MATCH_FILE_SHORTOPT	z
+
+# Path to training data file with groups for cv
+-r "P:\ORD_Luther_201308073D\Glenn\AnnotationsPass2ForNLP\Pass2NotesAndLivSitPromotedXMLForCrossValidation\CrossValidationGroupsPressureUlcer_170419.csv"
+
+# Path to schema file
+-s "P:\ORD_Luther_201308073D\Glenn\AnnotationsPass2ForNLP\LivingSituationAndCue_Schema_171129.xml"
+
+# Training group size
+-u 0
+
+# Application used to create annotations (either Knowtator or eHost)
+-a eHost
+
+# Path to acceptable concepts
+-c "P:\ORD_Luther_201308073D\Glenn\AnnotationsPass2ForNLP\LivingSituationAndCue_Concepts_171129.txt"
+
+# Path to dictionary file
+# -d "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\CirrhosisLexicon_171129.txt"
+
+# Describe ContextSifter, specific fields CONCEPTS, FORBIDDEN, REQUIRED, FORBIDDEN_DISTANCE_REVERSE, FORBIDDEN_DISTANCE_FORWARD, REQUIRED_DISTANCE_REVERSE, REQUIRED_DISTANCE_FORWARD
+#-e "order:0 concepts:alone, extfamily, group, nuclearfamily, other context:livingsituationcue required_distance_reverse:0 required_distance_forward:0"
+
+# Start index for options for running cv
+-x 56
+
+# Stop index for options for running cv (option at stop index is exclude)
+-j 57
+
+# Paths to attribute taggers
+#-b "P:\ORD_Luther_201308073D\Glenn\AnnotationsPass2ForNLP\CueScopeSolution_Rd00_CSTrainingFeatures_UnprocessedTokens_v01_160721_175700.atsn"
+
+# Fully qualified names representing attribute conflict managers
+#-g src.main.gov.va.vha09.grecc.raptat.gg.core.attributeconflictmanagers.AssertionConflictManager
+
+
+# Fully qualified names of sentence filter and associated phrase filter along with phrase filter parameters (separated by colons)
+-i src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.featurebuilding.labelingfilters.sentence.PhraseBasedSentenceFilter:src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.featurebuilding.labelingfilters.phrase.ConceptBasedPhraseFilter:livingsituationcue:alone:extfamily:group:homeless:nuclearfamily:other
+
+# Token sequence finder method
+-m PROBABILISTIC
+
+#### Use only option -v OR -w (or neither), but not both ####
+# Section matcher text
+#-v
+# OR
+# Section matcher file path
+#-w
+
+#### Use only option -y OR -z (or neither), but not both ####
+# Sentence matcher text
+#-y
+# OR
+# Sentence matcher file path
+#-z

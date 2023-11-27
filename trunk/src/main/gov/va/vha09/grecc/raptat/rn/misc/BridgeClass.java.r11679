@@ -1,0 +1,10 @@
+package src.main.gov.va.vha09.grecc.raptat.rn.misc;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class BridgeClass {
+	public static ArrayList<SilkAnnotation> silkPredictions = new ArrayList<SilkAnnotation>();
+	public static String nextDocName = "";
+	public static boolean documentFinished = false;
+}

@@ -1,0 +1,119 @@
+package src.main.gov.va.vha09.grecc.raptat.rn.misc;
+
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.PrintWriter;
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.List;
+import java.util.List;
+import java.util.Properties;
+
+import src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.conceptmapping.ConceptMapSolution;
+import src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.conceptmapping.ConceptMapTrainer;
+import src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.conceptmapping.naivebayes.NBTrainer;
+import src.main.gov.va.vha09.grecc.raptat.gg.algorithms.probabilistic.sequenceidentification.probabilistic.ProbabilisticSequenceIDTrainer;
+import src.main.gov.va.vha09.grecc.raptat.gg.algorithms.training.ProbabilisticSolutionTrainer;
+import src.main.gov.va.vha09.grecc.raptat.gg.core.training.TSTrainingParameterObject;
+import src.main.gov.va.vha09.grecc.raptat.gg.core.training.TokenSequenceSolutionTrainer;
+import src.main.gov.va.vha09.grecc.raptat.gg.datastructures.PhraseIDTrainOptions;
+import src.main.gov.va.vha09.grecc.raptat.gg.datastructures.TokenProcessingOptions;
+import src.main.gov.va.vha09.grecc.raptat.gg.datastructures.annotationcomponents.AnnotatedPhrase;
+import src.main.gov.va.vha09.grecc.raptat.gg.datastructures.annotationcomponents.SchemaConcept;
+import src.main.gov.va.vha09.grecc.raptat.gg.datastructures.hashtrees.HashTreeInStreamer;
+import src.main.gov.va.vha09.grecc.raptat.gg.datastructures.hashtrees.LabeledHashTree;
+import src.main.gov.va.vha09.grecc.raptat.gg.datastructures.hashtrees.UnlabeledHashTree;
+import src.main.gov.va.vha09.grecc.raptat.gg.textanalysis.RaptatDocument;
+
+public class BridgeClass {
+	public static final String systemFileSeparator = System.getProperty("file.separator");
+	
+	public static boolean nextBatchCreation;
+    public static ArrayList<SilkAnnotation> silkPredictions;
+    public static String nextDocName;
+    public static ArrayList<SilkAnnotation> annotatedDocumentAnnotations;
+    public static HashSet<String> annotatedDocumentFilePaths;
+    public static HashSet<SilkAnnotation> totalAnnotatedDocumentAnnotations;
+    public static HashSet<String> totalAnnotatedDocumentFilePaths;
+    public static int numberDocumentsFinished;
+    public static String solutionFilePath;
+    public static int numberDocumentsBeforeTrainingThreshold;
+    public static boolean onlineLearning;
+    public static boolean activeLearning;
+    public static ProbabilisticSolutionTrainer tsFinderTrainer = null;
+    public static RaptatDocument raptatDocument;
+    
+    public static TokenProcessingOptions tokenProcessingOptions;
+    public static PhraseIDTrainOptions phraseIDOptions;
+    public static TSTrainingParameterObject trParameters;
+    public static File solutionFile;
+    public static ConceptMapTrainer conceptMapTrainer = null;
+    public static ConceptMapSolution conceptMapSolution = null;
+    public static List<AnnotatedPhrase> curRefAnnotations;
+    public static ProbabilisticSequenceIDTrainer probabilisticSequenceIDTrainer = null;
+    public static LabeledHashTree primaryLabeledHashTree = null;
+    public static HashTreeInStreamer<UnlabeledHashTree> unlabeledHashTreeInstream = null;
+    public static List<SchemaConcept> schemaConcepts = null;
+    public static String nextTrainingDocumentFilePath = null;
+    
+    static {
+        File propertiesFile;
+        nextBatchCreation = false;
+        raptatDocument = null;
+        silkPredictions = new ArrayList();
+        nextDocName = "";
+        annotatedDocumentAnnotations = new ArrayList();
+        annotatedDocumentFilePaths = new HashSet();
+        totalAnnotatedDocumentAnnotations = new HashSet();
+        totalAnnotatedDocumentFilePaths = new HashSet();
+        numberDocumentsFinished = 0;
+        solutionFilePath = System.getProperty("user.home") + systemFileSeparator + "uimaRaptatInception" + systemFileSeparator + "RaptatSolution_211002_202945.soln";
+        numberDocumentsBeforeTrainingThreshold = 1;
+        onlineLearning = false;
+        activeLearning = false;
+        schemaConcepts = new ArrayList<SchemaConcept>();
+        //userDirPath = "U:\\Workspaces\\Tomcat";
+        
+        
+        File UIMAInceptionDirectory = new File(System.getProperty("user.home") + systemFileSeparator + "uimaRaptatInception" + systemFileSeparator);
+        if (!UIMAInceptionDirectory.exists()) {
+            UIMAInceptionDirectory.mkdir();
+        }
+        if (!(propertiesFile = new File(UIMAInceptionDirectory.getAbsolutePath() + systemFileSeparator + "silk.properties")).exists()) {
+            try {
+                try {
+                    propertiesFile.createNewFile();
+                    PrintWriter printwriter = new PrintWriter(propertiesFile);
+                    printwriter.write("NumberDocumentsBeforeTrainingThreshold=1\r\nOnlineLearning=false\r\nActiveLearning=false");
+                    //TODO: watch if this causes any issues bc of EOL
+                    printwriter.flush();
+                    printwriter.close();
+                }
+                catch (IOException e) {
+                    e.printStackTrace();
+                    BridgeClass.setProperties();
+                }
+            }
+            finally {
+                BridgeClass.setProperties();
+            }
+        }
+    }
+
+    public static void setProperties() {
+        Properties silkProperties = new Properties();
+        FileInputStream silkPropertiesInputStream = null;
+        try {
+            silkPropertiesInputStream = new FileInputStream(
+            		System.getProperty("user.home") + systemFileSeparator + "uimaRaptatInception" + systemFileSeparator + "silk.properties");
+            silkProperties.load(silkPropertiesInputStream);
+            numberDocumentsBeforeTrainingThreshold = Integer.parseInt(silkProperties.getProperty("NumberDocumentsBeforeTrainingThreshold"));
+            onlineLearning = Boolean.parseBoolean(silkProperties.getProperty("OnlineLearning"));
+            activeLearning = Boolean.parseBoolean(silkProperties.getProperty("ActiveLearning"));
+        }
+        catch (IOException e1) {
+            e1.printStackTrace();
+        }
+    }
+}

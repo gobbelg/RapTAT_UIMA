@@ -1,0 +1,86 @@
+# CommentMarker	Field	ShortOption
+#	ANNOTATION_APP_SHORTOPT	a
+#	ATTRIBUTE_TAGGER_PATHS_SHORTOPT	b
+#	CONCEPTS_FILEPATH_SHORTOPT	c
+#	DICTIONARY_FILEPATH_SHORTOPT	d
+#	CONTEXT_SIFTER_TEXT_SHORTOPT	e
+#	CONTEXT_SIFTER_FILE_SHORTOPT	f
+#	ATTRIBUTE_CONFLICT_MANAGERS_SHORTOPT	g
+#	HELP_SHORTOPT	h
+#	SENTENCE_FILTER_SHORTOPT	i
+#	STOP_INDEX_SHORTOPT	j
+#	TOKEN_SEQUENCE_FINDER_METHOD_SHORTOPT	m
+#	PROPERTIES_PARSE_LONGOPT	p
+#	TRAINING_DATA_FILEPATH_SHORTOPT	r
+#	SCHEMA_FILEPATH_SHORTOPT	s
+#	TRAINING_GROUP_SIZE_SHORTOPT	u
+#	SECTION_MATCH_TEXT_SHORTOPT	v
+#	SECTION_MATCH_FILE_SHORTOPT	w
+#	START_INDEX_SHORTOPT	x
+#	SENTENCE_MATCH_TEXT_SHORTOPT	y
+#	SENTENCE_MATCH_FILE_SHORTOPT	z
+
+# Path to training data file with groups for cv
+-r "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\TrainingTxtAndXml_LocationAbdOrLiver\BlocksForRadiologyCrossValidation.csv"
+
+# Path to schema file
+-s "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\ConfigurationFiles\projectschemaLocationLivOrAbdd_180604.xml"
+
+# Training group size
+-u 0
+
+# Application used to create annotations (either Knowtator or eHost)
+-a eHost
+
+# Path to acceptable concepts
+-c "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\ConfigurationFiles\AcceptedConcepts_AbdLocOnly_180608.txt"
+
+# Path to dictionary file
+-d "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\ConfigurationFiles\LexiconCirrhosisOverrideRaptat_AbdomenLocOnly_v01_180608.txt"
+
+# Describe ContextSifter, specific fields CONCEPTS, FORBIDDEN, REQUIRED, FORBIDDEN_DISTANCE_REVERSE, FORBIDDEN_DISTANCE_FORWARD, REQUIRED_DISTANCE_REVERSE, REQUIRED_DISTANCE_FORWARD
+#-e "order:2 concepts:00_NULL_01 context:00_NULL_03 required_distance_reverse:0 required_distance_forward:0 ^ order:1 concepts:13_radiographiccharacteristics, 20_cancerdetermination context:01_liver||02_liverlobe||00_NULL_02 required_distance_reverse:1  required_distance_forward:1 ^ order:0 concepts:05_massfocalarea context:01_liver||02_liverlobe||00_NULL_02 required_distance_reverse:1  required_distance_forward:1"
+
+# Fully qualified name of sentence filter:phrase filter: phrase filter parameters
+#
+# Property descriptor requires proper upper and lower case: TRUE
+# Property descriptor must be surrounded by quotes: FALSE
+# Allows multiple descriptors: TRUE
+# Multiple descriptor separator character: '^'
+# Default value if no option provided: Null, no dictionary used
+#
+-i "src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.featurebuilding.labelingfilters.sentence.PhraseBasedSentenceFilter:src.main.gov.va.vha09.grecc.raptat.gg.algorithms.crf.featurebuilding.labelingfilters.phrase.ConceptBasedPhraseFilter:10_location_abdomen"
+
+# Start index for options for running cv
+-x 56
+
+# Stop index for options for running cv (option at stop index is exclude)
+-j 57
+
+# Paths to attribute taggers
+-b "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\ConfigurationFiles\CueScopeSolution_Rd00_CSTrainingFeatures_UnprocessedTokens_v01_160721_175700.atsn"
+
+# Fully qualified names representing attribute conflict managers
+-g src.main.gov.va.vha09.grecc.raptat.gg.core.attributeconflictmanagers.AssertionConflictManager
+
+# Token sequence finder method
+-m PROBABILISTIC
+
+# Annotation group post processors - take an AnnotationGroup object and process it after RapTAT and dictionary annotation is complete
+# The post processor should implement the AnnotationGroupPostProcessor interface
+#-t "src.main.gov.va.vha09.grecc.raptat.gg.core.annotation.postprocessing.CirrhosisPostProcessor"
+
+
+#### Use only option -v OR -w (or neither), but not both ####
+# Section matcher text
+#-v
+# OR
+# Section matcher file path
+#-w
+
+#### Use only option -y OR -z (or neither), but not both ####
+# Sentence matcher text
+#-y
+# OR
+# Sentence matcher file path
+#-z
