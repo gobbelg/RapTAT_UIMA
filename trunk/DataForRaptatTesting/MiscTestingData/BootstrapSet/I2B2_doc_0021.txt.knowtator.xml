@@ -1,0 +1,1095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="I2B2_doc_0021.txt">
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11494" />
+    <span start="236" end="255" />
+    <spannedText>Atrial fibrillation</spannedText>
+    <creationDate>Mon Jun 25 14:52:53 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11496" />
+    <span start="269" end="293" />
+    <spannedText>Congestive heart failure</spannedText>
+    <creationDate>Mon Jun 25 14:52:55 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11498" />
+    <span start="298" end="317" />
+    <spannedText>Sick sinus syndrome</spannedText>
+    <creationDate>Mon Jun 25 14:52:57 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11500" />
+    <span start="411" end="423" />
+    <spannedText>Hypertension</spannedText>
+    <creationDate>Mon Jun 25 14:53:03 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11502" />
+    <span start="587" end="599" />
+    <spannedText>hypertension</spannedText>
+    <creationDate>Mon Jun 25 14:53:12 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11504" />
+    <span start="602" end="621" />
+    <spannedText>atrial fibrillation</spannedText>
+    <creationDate>Mon Jun 25 14:53:18 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11506" />
+    <span start="624" end="643" />
+    <spannedText>sick sinus syndrome</spannedText>
+    <creationDate>Mon Jun 25 14:53:21 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11508" />
+    <span start="744" end="768" />
+    <spannedText>congestive
+heart failure</spannedText>
+    <creationDate>Mon Jun 25 14:53:25 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11510" />
+    <span start="777" end="788" />
+    <spannedText>EF of 40-50</spannedText>
+    <creationDate>Mon Jun 25 14:53:28 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11512" />
+    <span start="900" end="905" />
+    <spannedText>cough</spannedText>
+    <creationDate>Mon Jun 25 14:53:34 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11514" />
+    <span start="908" end="918" />
+    <spannedText>chest pain</spannedText>
+    <creationDate>Mon Jun 25 14:53:35 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11516" />
+    <span start="921" end="940" />
+    <spannedText>shortness of breath</spannedText>
+    <creationDate>Mon Jun 25 14:53:37 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11518" />
+    <span start="943" end="946" />
+    <spannedText>PND</spannedText>
+    <creationDate>Mon Jun 25 14:53:40 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11520" />
+    <span start="950" end="959" />
+    <spannedText>orthopnea</spannedText>
+    <creationDate>Mon Jun 25 14:53:41 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11522" />
+    <span start="1056" end="1075" />
+    <spannedText>bundle-branch
+block</spannedText>
+    <creationDate>Mon Jun 25 14:53:46 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11524" />
+    <span start="1146" end="1165" />
+    <spannedText>sick sinus syndrome</spannedText>
+    <creationDate>Mon Jun 25 14:53:50 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11526" />
+    <span start="1236" end="1244" />
+    <spannedText>EF of 25</spannedText>
+    <creationDate>Mon Jun 25 14:53:54 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11528" />
+    <span start="1283" end="1313" />
+    <spannedText>acute congestive heart failure</spannedText>
+    <creationDate>Mon Jun 25 14:53:57 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11530" />
+    <span start="1344" end="1363" />
+    <spannedText>atrial fibrillation</spannedText>
+    <creationDate>Mon Jun 25 14:54:00 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11532" />
+    <span start="1565" end="1577" />
+    <spannedText>Hypertension</spannedText>
+    <creationDate>Mon Jun 25 14:54:10 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11534" />
+    <span start="1596" end="1615" />
+    <spannedText>Atrial fibrillation</spannedText>
+    <creationDate>Mon Jun 25 14:54:13 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11536" />
+    <span start="1886" end="1905" />
+    <spannedText>Sick sinus syndrome</spannedText>
+    <creationDate>Mon Jun 25 14:54:21 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11540" />
+    <span start="1939" end="1947" />
+    <spannedText>Coumadin</spannedText>
+    <creationDate>Mon Jun 25 14:54:28 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11542" />
+    <span start="1952" end="1958" />
+    <spannedText>Folate</spannedText>
+    <creationDate>Mon Jun 25 14:54:29 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11544" />
+    <span start="1963" end="1972" />
+    <spannedText>Synthroid</spannedText>
+    <creationDate>Mon Jun 25 14:54:31 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11546" />
+    <span start="1990" end="1996" />
+    <spannedText>Toprol</spannedText>
+    <creationDate>Mon Jun 25 14:54:32 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11548" />
+    <span start="2018" end="2026" />
+    <spannedText>Protonix</spannedText>
+    <creationDate>Mon Jun 25 14:54:39 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11550" />
+    <span start="2031" end="2038" />
+    <spannedText>Zyprexa</spannedText>
+    <creationDate>Mon Jun 25 14:54:40 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11552" />
+    <span start="2043" end="2050" />
+    <spannedText>Aspirin</spannedText>
+    <creationDate>Mon Jun 25 14:54:41 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11554" />
+    <span start="2326" end="2341" />
+    <spannedText>pulse irregular</spannedText>
+    <creationDate>Mon Jun 25 14:54:51 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11556" />
+    <span start="2349" end="2371" />
+    <spannedText>blood pressure 140/100</spannedText>
+    <creationDate>Mon Jun 25 14:54:58 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11558" />
+    <span start="2525" end="2528" />
+    <spannedText>JVP</spannedText>
+    <creationDate>Mon Jun 25 14:55:10 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11560" />
+    <span start="2543" end="2556" />
+    <spannedText>flutter waves</spannedText>
+    <creationDate>Mon Jun 25 14:55:14 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11562" />
+    <span start="2631" end="2656" />
+    <spannedText>Irregular rate and rhythm</spannedText>
+    <creationDate>Mon Jun 25 14:55:22 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11564" />
+    <span start="2659" end="2670" />
+    <spannedText>tachycardic</spannedText>
+    <creationDate>Mon Jun 25 14:55:23 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11566" />
+    <span start="2692" end="2699" />
+    <spannedText>murmurs</spannedText>
+    <creationDate>Mon Jun 25 14:55:28 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11568" />
+    <span start="2832" end="2853" />
+    <spannedText>lower extremity edema</spannedText>
+    <creationDate>Mon Jun 25 14:55:33 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11570" />
+    <span start="3240" end="3249" />
+    <spannedText>CK of 129</spannedText>
+    <creationDate>Mon Jun 25 14:55:57 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11572" />
+    <span start="3252" end="3264" />
+    <spannedText>CK-MB of 5.9</spannedText>
+    <creationDate>Mon Jun 25 14:56:00 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11574" />
+    <span start="3274" end="3291" />
+    <spannedText>elevated troponin</spannedText>
+    <creationDate>Mon Jun 25 14:56:02 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11576" />
+    <span start="3306" end="3320" />
+    <spannedText>Atrial flutter</spannedText>
+    <creationDate>Mon Jun 25 14:56:05 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11578" />
+    <span start="3359" end="3383" />
+    <spannedText>left
+bundle-branch block</spannedText>
+    <creationDate>Mon Jun 25 14:56:10 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11580" />
+    <span start="3398" end="3410" />
+    <spannedText>Cardiomegaly</spannedText>
+    <creationDate>Mon Jun 25 14:56:11 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11582" />
+    <span start="3415" end="3428" />
+    <spannedText>cephalization</spannedText>
+    <creationDate>Mon Jun 25 14:56:15 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11584" />
+    <span start="3534" end="3553" />
+    <spannedText>sick sinus
+syndrome</spannedText>
+    <creationDate>Mon Jun 25 14:56:21 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11586" />
+    <span start="3556" end="3575" />
+    <spannedText>atrial fibrillation</spannedText>
+    <creationDate>Mon Jun 25 14:56:23 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11588" />
+    <span start="3581" end="3589" />
+    <spannedText>Coumadin</spannedText>
+    <creationDate>Mon Jun 25 14:56:30 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11590" />
+    <span start="3651" end="3670" />
+    <spannedText>atrial fibrillation</spannedText>
+    <creationDate>Mon Jun 25 14:56:44 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11594" />
+    <span start="3671" end="3685" />
+    <spannedText>atrial
+flutter</spannedText>
+    <creationDate>Mon Jun 25 14:57:03 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11596" />
+    <span start="3715" end="3739" />
+    <spannedText>congestive heart failure</spannedText>
+    <creationDate>Mon Jun 25 14:57:06 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11598" />
+    <span start="3820" end="3839" />
+    <spannedText>sick sinus syndrome</spannedText>
+    <creationDate>Mon Jun 25 14:57:10 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11600" />
+    <span start="3848" end="3872" />
+    <spannedText>left bundle-branch
+block</spannedText>
+    <creationDate>Mon Jun 25 14:57:13 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11602" />
+    <span start="3904" end="3912" />
+    <spannedText>asystole</spannedText>
+    <creationDate>Mon Jun 25 14:57:16 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11604" />
+    <span start="3929" end="3940" />
+    <spannedText>bradycardia</spannedText>
+    <creationDate>Mon Jun 25 14:57:19 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11606" />
+    <span start="4152" end="4169" />
+    <spannedText>ventricular pacer</spannedText>
+    <creationDate>Mon Jun 25 14:57:25 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11608" />
+    <span start="4286" end="4300" />
+    <spannedText>atrial flutter</spannedText>
+    <creationDate>Mon Jun 25 14:57:29 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11610" />
+    <span start="4397" end="4404" />
+    <spannedText>digoxin</spannedText>
+    <creationDate>Mon Jun 25 14:57:36 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11612" />
+    <span start="4409" end="4418" />
+    <spannedText>Lopressor</spannedText>
+    <creationDate>Mon Jun 25 14:57:38 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11614" />
+    <span start="4610" end="4619" />
+    <spannedText>diltiazem</spannedText>
+    <creationDate>Mon Jun 25 14:57:47 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11616" />
+    <span start="4653" end="4663" />
+    <spannedText>amiodarone</spannedText>
+    <creationDate>Mon Jun 25 14:57:49 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11618" />
+    <span start="4994" end="5005" />
+    <spannedText>arrhythmias</spannedText>
+    <creationDate>Mon Jun 25 14:58:03 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11620" />
+    <span start="5035" end="5045" />
+    <spannedText>amiodarone</spannedText>
+    <creationDate>Mon Jun 25 14:58:06 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11622" />
+    <span start="5192" end="5203" />
+    <spannedText>EF of 20-25</spannedText>
+    <creationDate>Mon Jun 25 14:58:13 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11624" />
+    <span start="5210" end="5244" />
+    <spannedText>regional wall motion abnormalities</spannedText>
+    <creationDate>Mon Jun 25 14:58:18 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11626" />
+    <span start="5294" end="5302" />
+    <spannedText>akinetic</spannedText>
+    <creationDate>Mon Jun 25 14:58:21 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11628" />
+    <span start="5321" end="5355" />
+    <spannedText>hyperkinesis of the left ventricle</spannedText>
+    <creationDate>Mon Jun 25 14:58:25 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11630" />
+    <span start="5429" end="5442" />
+    <spannedText>increased JVP</spannedText>
+    <creationDate>Mon Jun 25 14:58:35 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11632" />
+    <span start="5403" end="5416" />
+    <spannedText>heart failure</spannedText>
+    <creationDate>Mon Jun 25 14:58:38 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11634" />
+    <span start="5447" end="5478" />
+    <spannedText>bilateral lower extremity edema</spannedText>
+    <creationDate>Mon Jun 25 14:58:42 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11636" />
+    <span start="5492" end="5511" />
+    <spannedText>pulmonary effusions</spannedText>
+    <creationDate>Mon Jun 25 14:58:43 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11638" />
+    <span start="5567" end="5572" />
+    <spannedText>Lasix</spannedText>
+    <creationDate>Mon Jun 25 14:58:51 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11640" />
+    <span start="5691" end="5696" />
+    <spannedText>Lasix</spannedText>
+    <creationDate>Mon Jun 25 14:58:58 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11642" />
+    <span start="5901" end="5913" />
+    <spannedText>hypertension</spannedText>
+    <creationDate>Mon Jun 25 14:59:05 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11644" />
+    <span start="5935" end="5949" />
+    <spannedText>Blood pressure</spannedText>
+    <creationDate>Mon Jun 25 14:59:08 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11646" />
+    <span start="6030" end="6054" />
+    <spannedText>Systolic blood pressures</spannedText>
+    <creationDate>Mon Jun 25 14:59:12 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11648" />
+    <span start="6136" end="6150" />
+    <spannedText>blood
+pressure</spannedText>
+    <creationDate>Mon Jun 25 14:59:16 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11650" />
+    <span start="5843" end="5848" />
+    <spannedText>Lasix</spannedText>
+    <creationDate>Mon Jun 25 14:59:20 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11652" />
+    <span start="6110" end="6120" />
+    <spannedText>nitro drip</spannedText>
+    <creationDate>Mon Jun 25 14:59:24 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11654" />
+    <span start="6168" end="6191" />
+    <spannedText>calcium channel blocker</spannedText>
+    <creationDate>Mon Jun 25 14:59:27 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11656" />
+    <span start="6194" end="6206" />
+    <spannedText>beta-blocker</spannedText>
+    <creationDate>Mon Jun 25 14:59:29 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11658" />
+    <span start="6220" end="6233" />
+    <spannedText>ACE inhibitor</spannedText>
+    <creationDate>Mon Jun 25 14:59:31 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11660" />
+    <span start="6296" end="6305" />
+    <spannedText>diltiazem</spannedText>
+    <creationDate>Mon Jun 25 14:59:33 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11662" />
+    <span start="6389" end="6399" />
+    <spannedText>lisinopril</spannedText>
+    <creationDate>Mon Jun 25 14:59:36 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11664" />
+    <span start="6419" end="6428" />
+    <spannedText>Toprol-XL</spannedText>
+    <creationDate>Mon Jun 25 14:59:38 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11666" />
+    <span start="6454" end="6463" />
+    <spannedText>diltiazem</spannedText>
+    <creationDate>Mon Jun 25 14:59:40 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11668" />
+    <span start="6581" end="6605" />
+    <spannedText>systolic
+blood pressures</spannedText>
+    <creationDate>Mon Jun 25 14:59:53 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11670" />
+    <span start="6678" end="6702" />
+    <spannedText>cardiac enzyme
+elevation</spannedText>
+    <creationDate>Mon Jun 25 15:00:24 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11672" />
+    <span start="6899" end="6914" />
+    <spannedText>volume overload</spannedText>
+    <creationDate>Mon Jun 25 15:00:29 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11674" />
+    <span start="7010" end="7033" />
+    <spannedText>coronary artery disease</spannedText>
+    <creationDate>Mon Jun 25 15:00:34 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11676" />
+    <span start="7036" end="7054" />
+    <spannedText>two-vessel disease</spannedText>
+    <creationDate>Mon Jun 25 15:00:36 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11678" />
+    <span start="7084" end="7107" />
+    <spannedText>LAD proximal 90% lesion</spannedText>
+    <creationDate>Mon Jun 25 15:00:42 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11680" />
+    <span start="7173" end="7180" />
+    <spannedText>RTLV-BR</spannedText>
+    <creationDate>Mon Jun 25 15:00:50 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11682" />
+    <span start="7509" end="7519" />
+    <spannedText>chest pain</spannedText>
+    <creationDate>Mon Jun 25 15:01:04 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11684" />
+    <span start="7625" end="7641" />
+    <spannedText>chest discomfort</spannedText>
+    <creationDate>Mon Jun 25 15:01:05 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11686" />
+    <span start="7602" end="7609" />
+    <spannedText>dyspnea</spannedText>
+    <creationDate>Mon Jun 25 15:01:07 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11688" />
+    <span start="7779" end="7785" />
+    <spannedText>Haldol</spannedText>
+    <creationDate>Mon Jun 25 15:01:16 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11690" />
+    <span start="7804" end="7810" />
+    <spannedText>Ativan</spannedText>
+    <creationDate>Mon Jun 25 15:01:18 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11692" />
+    <span start="7882" end="7888" />
+    <spannedText>Haldol</spannedText>
+    <creationDate>Mon Jun 25 15:01:22 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11694" />
+    <span start="7893" end="7899" />
+    <spannedText>Ativan</spannedText>
+    <creationDate>Mon Jun 25 15:01:24 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11696" />
+    <span start="7981" end="7988" />
+    <spannedText>Zyprexa</spannedText>
+    <creationDate>Mon Jun 25 15:01:28 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11700" />
+    <span start="8113" end="8119" />
+    <spannedText>Haldol</spannedText>
+    <creationDate>Mon Jun 25 15:01:39 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11702" />
+    <span start="8206" end="8225" />
+    <spannedText>right femoral bruit</spannedText>
+    <creationDate>Mon Jun 25 15:01:46 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11704" />
+    <span start="8308" end="8318" />
+    <spannedText>AV
+fistula</spannedText>
+    <creationDate>Mon Jun 25 15:01:49 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11706" />
+    <span start="8375" end="8394" />
+    <spannedText>atrial
+fibrillation</spannedText>
+    <creationDate>Mon Jun 25 15:01:57 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11708" />
+    <span start="8494" end="8502" />
+    <spannedText>Coumadin</spannedText>
+    <creationDate>Mon Jun 25 15:02:05 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11710" />
+    <span start="8548" end="8556" />
+    <spannedText>Coumadin</spannedText>
+    <creationDate>Mon Jun 25 15:02:07 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11712" />
+    <span start="8712" end="8721" />
+    <spannedText>Synthroid</spannedText>
+    <creationDate>Mon Jun 25 15:02:11 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11714" />
+    <span start="8998" end="9005" />
+    <spannedText>insulin</spannedText>
+    <creationDate>Mon Jun 25 15:02:15 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11716" />
+    <span start="9054" end="9061" />
+    <spannedText>insulin</spannedText>
+    <creationDate>Mon Jun 25 15:02:18 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11718" />
+    <span start="9290" end="9296" />
+    <spannedText>Colace</spannedText>
+    <creationDate>Mon Jun 25 15:02:23 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11720" />
+    <span start="9299" end="9304" />
+    <spannedText>senna</spannedText>
+    <creationDate>Mon Jun 25 15:02:25 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11722" />
+    <span start="9307" end="9316" />
+    <spannedText>lactulose</spannedText>
+    <creationDate>Mon Jun 25 15:02:27 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11724" />
+    <span start="9323" end="9331" />
+    <spannedText>Dulcolax</spannedText>
+    <creationDate>Mon Jun 25 15:02:29 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11726" />
+    <span start="9911" end="9917" />
+    <spannedText>Haldol</spannedText>
+    <creationDate>Mon Jun 25 15:02:41 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11728" />
+    <span start="10443" end="10454" />
+    <spannedText>ceftriaxone</spannedText>
+    <creationDate>Mon Jun 25 15:02:53 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11730" />
+    <span start="10486" end="10492" />
+    <spannedText>Keflex</spannedText>
+    <creationDate>Mon Jun 25 15:02:55 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11732" />
+    <span start="11229" end="11240" />
+    <spannedText>JVP at 9 cm</spannedText>
+    <creationDate>Mon Jun 25 15:03:21 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11734" />
+    <span start="11262" end="11280" />
+    <spannedText>bibasilar crackles</spannedText>
+    <creationDate>Mon Jun 25 15:03:26 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11736" />
+    <span start="11299" end="11304" />
+    <spannedText>cough</spannedText>
+    <creationDate>Mon Jun 25 15:03:28 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="i2b2BootstrapTestProject.pins_Instance_11738" />
+    <span start="11386" end="11409" />
+    <spannedText>Trace edema bilaterally</spannedText>
+    <creationDate>Mon Jun 25 15:03:34 CDT 2012</creationDate>
+  </annotation>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11498">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11736">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11496">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11738">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11494">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11732">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11734">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11728">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11730">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11724">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11726">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11512">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11514">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11508">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11510">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11504">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11506">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11500">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11502">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11528">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11530">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11524">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11526">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11520">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11522">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11516">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11518">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11542">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11540">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11546">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11544">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11534">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11532">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11536">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11558">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11556">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11562">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11560">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11550">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11548">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11554">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11552">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11572">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11574">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11576">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11578">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11564">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11566">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11568">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11570">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11588">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11590">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11594">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11580">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11582">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11584">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11586">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11602">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11600">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11598">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11596">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11610">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11608">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11606">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11604">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11618">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11616">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11614">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11612">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11626">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11624">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11622">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11620">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11632">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11634">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11628">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11630">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11640">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11642">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11636">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11638">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11648">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11650">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11644">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11646">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11656">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11658">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11652">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11654">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11662">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11660">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11666">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11664">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11670">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11668">
+    <mentionClass id="Blood Pressure">Blood Pressure</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11674">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11672">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11678">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11676">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11682">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11680">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11686">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11684">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11690">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11688">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11692">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11694">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11696">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11700">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11702">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11704">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11706">
+    <mentionClass id="Heart Disease">Heart Disease</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11708">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11710">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11712">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11714">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11716">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11718">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11720">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+  <classMention id="i2b2BootstrapTestProject.pins_Instance_11722">
+    <mentionClass id="Drug">Drug</mentionClass>
+  </classMention>
+</annotations>
+

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="textDocument_02.txt">
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_10004" />
+    <span start="125" end="141" />
+    <spannedText>Ut enim ad minim</spannedText>
+    <creationDate>Wed Apr 11 22:33:26 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_10006" />
+    <span start="163" end="175" />
+    <spannedText>exercitation</spannedText>
+    <creationDate>Wed Apr 11 22:34:02 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_10008" />
+    <annotator id="RapTATExamples_Instance_2">RapTAT ,</annotator>
+    <span start="245" end="256" />
+    <spannedText>irure dolor</spannedText>
+    <creationDate>Wed Apr 11 22:34:18 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_10" />
+    <annotator id="RapTATExamples_Instance_3">SLC , Salt Lake</annotator>
+    <span start="133" end="154" />
+    <spannedText>ad minim veniam, quis</spannedText>
+    <creationDate>Wed Apr 11 22:18:29 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_12" />
+    <annotator id="RapTATExamples_Instance_2">RapTAT ,</annotator>
+    <span start="372" end="387" />
+    <spannedText>non proident, s</spannedText>
+    <creationDate>Wed Apr 11 22:18:35 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_4" />
+    <annotator id="RapTATExamples_Instance_2">RapTAT ,</annotator>
+    <span start="6" end="22" />
+    <spannedText>ipsum dolor sit</spannedText>
+    <creationDate>Wed Apr 11 22:17:57 CDT 2012</creationDate>
+  </annotation>
+  <classMention id="PerformanceScorerProject_Instance_10004">
+    <mentionClass id="Roman">Roman</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_10006">
+    <mentionClass id="Greek">Greek</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_10">
+    <mentionClass id="Greek">Greek</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_10008">
+    <mentionClass id="Greek">Greek</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_4">
+    <mentionClass id="Roman">Roman</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_12">
+    <mentionClass id="Greek">Greek</mentionClass>
+  </classMention>
+</annotations>
+

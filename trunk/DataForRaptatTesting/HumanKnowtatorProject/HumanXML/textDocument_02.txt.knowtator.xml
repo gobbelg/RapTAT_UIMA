@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<annotations textSource="textDocument_02.txt">
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_10" />
+    <span start="133" end="154" />
+    <spannedText>ad minim veniam, quis</spannedText>
+    <creationDate>Wed Apr 11 22:18:29 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_12" />
+    <annotator id="PerformanceScorerProject_Instance_10000">Julia , SLC</annotator>
+    <span start="372" end="387" />
+    <spannedText>non proident, s</spannedText>
+    <creationDate>Wed Apr 11 22:18:35 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_4" />
+    <span start="0" end="17" />
+    <spannedText>Lorem ipsum dolor</spannedText>
+    <creationDate>Wed Apr 11 22:17:57 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_6" />
+    <span start="40" end="51" />
+    <spannedText>adipisicing</spannedText>
+    <creationDate>Wed Apr 11 22:18:06 CDT 2012</creationDate>
+  </annotation>
+  <annotation>
+    <mention id="PerformanceScorerProject_Instance_8" />
+    <annotator id="PerformanceScorerProject_Instance_10000">Julia , SLC</annotator>
+    <span start="245" end="259" />
+    <spannedText>irure dolor in</spannedText>
+    <creationDate>Wed Apr 11 22:18:13 CDT 2012</creationDate>
+  </annotation>
+  <classMention id="PerformanceScorerProject_Instance_10">
+    <mentionClass id="Greek">Greek</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_12">
+    <mentionClass id="Greek">Greek</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_6">
+    <mentionClass id="Roman">Roman</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_4">
+    <mentionClass id="Roman">Roman</mentionClass>
+  </classMention>
+  <classMention id="PerformanceScorerProject_Instance_8">
+    <mentionClass id="Roman">Roman</mentionClass>
+  </classMention>
+</annotations>
+

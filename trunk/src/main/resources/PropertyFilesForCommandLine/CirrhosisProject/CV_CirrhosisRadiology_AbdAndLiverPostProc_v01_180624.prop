@@ -1,0 +1,170 @@
+#=========================================================================================================
+# Specify the options for a given parameter by preceding its descriptor with either
+# a "short" (generally one letter) or "long" option of those listed below preceded by a hyphen.  In some 
+# cases, the use of upper and lower case in the descriptors must be carefully folllowed.  This is generally
+# necessary when describing file paths or specifying particular java classes.  Also, some descriptors have to 
+# be surrounded by quotes for proper parsing. Quotes can always be added but are unnecessary in many cases.
+# Finally, some parameters will take multiple descriptors and require a specific character to denote how the 
+# descriptors are delimited.  Specification of the requirements for each descriptor in terms of use of lower 
+# and upper case, quotes, multiple descriptors, and descriptor delimiters is provided below. 
+#=========================================================================================================
+
+
+#=============================================
+# Property settings use "long options"
+#=============================================
+# LONGOPTION		ANNOTATION_APP_LONGOPT = "annotationApp";
+# LONGOPTION		ANNOTATION_GROUP_POSTPROCESSOR_LONGOPT = "annotationPostProcessorDescriptors";
+# LONGOPTION		ATTRIBUTE_CONFLICT_MANAGERS_LONGOPT = "attributeConflictManagers";
+# LONGOPTION		ATTRIBUTE_TAGGER_PATHS_LONGOPT = "attributeTaggers";
+# LONGOPTION		CONTEXT_SIFTER_FILE_LONGOPT = "contextSifterFilePath";
+# LONGOPTION		CONTEXT_SIFTER_TEXT_LONGOPT = "contextSifterText";
+# LONGOPTION		DICTIONARY_FILEPATH_LONGOPT = "dictionaryFilePath";
+# LONGOPTION		HELP_LONGOPT = "help";
+# LONGOPTION		PROPERTIES_PARSE_LONGOPT = "propertiesFile";
+# LONGOPTION		SCHEMA_FILEPATH_LONGOPT = "schemaFilePath";
+# LONGOPTION 		SCORING_CONCEPTS_FILEPATH_LONGOPTION = "scoringConceptsFilePath"; 
+# LONGOPTION		SECTION_MATCH_FILE_LONGOPT = "sectionMatchFilePath";
+# LONGOPTION		SECTION_MATCH_TEXT_LONGOPT = "sectionMatchText";
+# LONGOPTION		SENTENCE_CONTEXT_ANALYZER_FILE_LONGOPT = "sentenceContextAnalyzerFile";
+# LONGOPTION		SENTENCE_CONTEXT_ANALYZER_TEXT_LONGOPT = "sentenceContextAnalyzerText";
+# LONGOPTION		SENTENCE_FILTER_LONGOPT = "sentenceFilters";
+# LONGOPTION		SENTENCE_MATCH_FILE_LONGOPT = "sentenceMatchFilePath";
+# LONGOPTION		SENTENCE_MATCH_TEXT_LONGOPT = "sentenceMatchText";
+# LONGOPTION		START_INDEX_LONGOPT = "startIndex";
+# LONGOPTION		STOP_INDEX_LONGOPT = "stopIndex";
+# LONGOPTION		TESTING_DIRECTORY_FILEPATH_LONGOPT = "testingDirectoryFilePath";
+# LONGOPTION		TOKEN_SEQUENCE_FINDER_METHOD_LONGOPT = "tokenSequenceFinderMethod";
+# LONGOPTION		TRAINING_CONCEPTS_FILEPATH_LONGOPT = "trainingConceptsFilePath";
+# LONGOPTION		TRAINING_DATA_FILEPATH_LONGOPT = "trainingDataFilePath";
+# LONGOPTION		TRAINING_GROUP_SIZE_LONGOPT = "trainingGroupSize";
+#=============================================
+
+
+#=============================================
+# Property settings use "short options"
+#=============================================
+# SHORTOPTION	ANNOTATION_APP_SHORTOPT = "a";
+# SHORTOPTION	ANNOTATION_GROUP_POSTPROCESSOR_SHORTOPT = "t";
+# SHORTOPTION	ATTRIBUTE_CONFLICT_MANAGERS_SHORTOPT = "g";
+# SHORTOPTION	ATTRIBUTE_TAGGER_PATHS_SHORTOPT = "b";
+# SHORTOPTION	CONTEXT_SIFTER_FILE_SHORTOPT = "f";
+# SHORTOPTION	CONTEXT_SIFTER_TEXT_SHORTOPT = "e";
+# SHORTOPTION	DICTIONARY_FILEPATH_SHORTOPT = "d";
+# SHORTOPTION	HELP_SHORTOPT = "h";
+# SHORTOPTION	PROPERTIES_PARSE_SHORTOPT = "p";
+# SHORTOPTION	SCHEMA_FILEPATH_SHORTOPT = "s";
+# SHORTOPTION	SCORING_CONCEPTS_FILEPATH_SHORTOPT = "l";
+# SHORTOPTION	SECTION_MATCH_FILE_SHORTOPT = "w";
+# SHORTOPTION	SECTION_MATCH_TEXT_SHORTOPT = "v";
+# SHORTOPTION	SENTENCE_CONTEXT_ANALYZER_FILE_SHORTOPT = "n";
+# SHORTOPTION	SENTENCE_CONTEXT_ANALYZER_TEXT_SHORTOPT = "k";
+# SHORTOPTION	SENTENCE_FILTER_SHORTOPT = "i";
+# SHORTOPTION	SENTENCE_MATCH_FILE_SHORTOPT = "z";
+# SHORTOPTION	SENTENCE_MATCH_TEXT_SHORTOPT = "y";
+# SHORTOPTION	START_INDEX_SHORTOPT = "x";
+# SHORTOPTION	STOP_INDEX_SHORTOPT = "j";
+# SHORTOPTION	TESTING_DIRECTORY_FILEPATH_SHORTOPT = "q";
+# SHORTOPTION	TOKEN_SEQUENCE_FINDER_METHOD_SHORTOPT = "m";
+# SHORTOPTION	TRAINING_CONCEPTS_FILEPATH_SHORTOPT = "c";
+# SHORTOPTION	TRAINING_DATA_FILEPATH_SHORTOPT = "r";
+# SHORTOPTION	TRAINING_DATA_FILEPATH_SHORTOPT = "r";
+# SHORTOPTION	TRAINING_GROUP_SIZE_SHORTOPT = "u";
+#=============================================
+
+#=============================================
+# Path to training data file with groups for cv
+#=============================================
+-r "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\TrainingTxtAndXml_LocationAbdOrLiver\
+BlocksForRadiologyCrossValidation.csv"
+
+#=============================================
+# Path to directory for testing data.  This is only used if the training and testing data are different, such as when adding annotations
+# after training and annotation by RapTAT, such as a set of previously generated annotations.
+#=============================================
+-q "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\TrainingXML_LocationAbdOrLiver"
+
+#=============================================
+# Path to schema file
+#=============================================
+-s "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\ConfigurationFiles\
+projectschemaLocationLivOrAbd_180618.xml"
+
+#=============================================
+# Training group size
+#=============================================
+-u 0
+
+#=============================================
+# Application used to create annotations (either Knowtator or eHost)
+#=============================================
+-a eHost
+
+#=============================================
+# Path to training concepts
+#=============================================
+-c "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\
+ConfigurationFiles\AcceptedConcepts_NoLocation_180618.txt"
+
+#=============================================
+# Path to scoring concepts
+#=============================================
+-l "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\ConfigurationFiles\ScoringConcepts_WithLiverAbdLocation_180620.txt"
+
+
+#=============================================
+# Path to dictionary file
+#=============================================
+-d "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\
+ConfigurationFiles\CirrhosisLexicon_v01_180618.txt"
+
+#=============================================
+# Describe ContextSifter, specific fields CONCEPTS, FORBIDDEN, REQUIRED, FORBIDDEN_DISTANCE_REVERSE, FORBIDDEN_DISTANCE_FORWARD, REQUIRED_DISTANCE_REVERSE, REQUIRED_DISTANCE_FORWARD
+#=============================================
+-e "order:1 concepts:13_radiographiccharacteristics, 20_cancerdetermination context:01_liver||02_liverlobe required_distance_reverse:1  required_distance_forward:1 ^ order:0 concepts:05_massfocalarea context:01_liver||02_liverlobe required_distance_reverse:1  required_distance_forward:1"
+
+#=============================================
+# Start index for options for running cv
+#=============================================
+-x 56
+
+#=============================================
+# Stop index for options for running cv (option at stop index is exclude)
+#=============================================
+-j 57
+
+#=============================================
+# Paths to attribute taggers
+#=============================================
+-b "H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\ConfigurationFiles\CueScopeSolution_Rd00_CSTrainingFeatures_UnprocessedTokens_v01_160721_175700.atsn"
+
+#=============================================
+# Fully qualified names representing attribute conflict managers
+#=============================================
+-g src.main.gov.va.vha09.grecc.raptat.gg.core.attributeconflictmanagers.AssertionConflictManager
+
+#=============================================
+# Token sequence finder method
+#=============================================
+-m PROBABILISTIC
+
+#=============================================
+# Annotation group post processors - take an AnnotationGroup object and process it after RapTAT and dictionary annotation is complete
+# The post processor should implement the AnnotationGroupPostProcessor interface. Separate parameters using the pipe '|' character.
+#=============================================
+-t "src.main.gov.va.vha09.grecc.raptat.gg.core.annotation.postprocessing.CirrhosisLocationPostProcessor
+|"10_location_abdomen"
+|"H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\
+ConfigurationFiles\ResultXML_AbdLocOnly_180608_231606"
+|"H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\TrainingTXT"
+|"H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\ConfigurationFiles\
+projectschemaLocationLivOrAbd_180618.xml"
+|"EHOST"^
+"src.main.gov.va.vha09.grecc.raptat.gg.core.annotation.postprocessing.CirrhosisLocationPostProcessor
+|"10_location_liver"
+|"H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\
+ConfigurationFiles\ResultXML_LiverLocOnly_180612_195905"
+|"H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\TrainingTXT"
+|"H:\AllFolders\ResAppProjects\ORD_Matheny_201406009D_Cirrhosis\Glenn\CrossValidation\ConfigurationFiles\
+projectschemaLocationLivOrAbd_180618.xml"
+|"EHOST"

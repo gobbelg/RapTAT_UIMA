@@ -1,0 +1,43 @@
+CON	2. family_support	ATT	assertion	VAL	uncertain	0	0	0
+CON	2. family_support	ATT	assertion	VAL	negative	1	0	0
+CON	7. depression	ATT	time frame	VAL	future	0	0	0
+CON	7. depression	ATT	assertion	VAL	negative	0	0	0
+CON	1. living alone	ATT	assertion	VAL	uncertain	0	0	0
+CON	7. depression	ATT	assertion	VAL	uncertain	0	0	0
+CON	2. family_support	ATT	time frame	VAL	past	0	0	0
+CON	1. living alone	ATT	assertion	VAL	positive	1	1	0
+ExactPhraseMatch_CON	2. family_support	2	2	2
+CON	2. family_support	ATT	assertion	VAL	NULL	1	0	0
+ExactPhraseMatch_CON	depressedbyfamily	0	0	0
+CON	7. depression	ATT	experiencer	VAL	not patient	0	0	0
+CON	7. depression	ATT	time frame	VAL	past	0	0	0
+CON	1. living alone	ATT	time frame	VAL	prior still current	0	0	0
+CON	1. living alone	2	1	1
+CON	2. family_support	ATT	time frame	VAL	current	3	0	0
+CON	2. family_support	ATT	experiencer	VAL	patient	3	0	0
+CON	7. depression	ATT	time frame	VAL	current	2	1	0
+CON	1. living alone	ATT	assertion	VAL	negative	0	0	0
+CON	2. family_support	ATT	assertion	VAL	hypothetical	0	0	0
+CON	1. living alone	ATT	experiencer	VAL	not patient	0	0	0
+Total (ExactPhraseMatches)	5	6	5
+CON	1. living alone	ATT	experiencer	VAL	patient	2	0	0
+CON	7. depression	ATT	experiencer	VAL	patient	3	0	0
+CON	2. family_support	ATT	time frame	VAL	prior still current	0	0	0
+CON	1. living alone	ATT	time frame	VAL	current	2	0	0
+CON	2. family_support	ATT	time frame	VAL	future	0	0	0
+CON	1. living alone	ATT	time frame	VAL	past	0	0	0
+CON	1. living alone	ATT	time frame	VAL	future	0	0	0
+CON	1. living alone	ATT	assertion	VAL	NULL	0	0	1
+CON	2. family_support	ATT	experiencer	VAL	not patient	0	0	0
+ExactPhraseMatch_CON	7. depression	2	2	1
+CON	2. family_support	3	1	1
+CON	depressedbyfamily	1	1	1
+CON	7. depression	3	1	0
+CON	1. living alone	ATT	assertion	VAL	hypothetical	0	0	0
+CON	7. depression	ATT	time frame	VAL	prior still current	0	0	1
+CON	7. depression	ATT	assertion	VAL	NULL	2	0	0
+ExactPhraseMatch_CON	1. living alone	1	2	2
+CON	2. family_support	ATT	assertion	VAL	positive	1	0	0
+Total (PartialPhraseMatches)	8	3	2
+CON	7. depression	ATT	assertion	VAL	hypothetical	0	0	0
+CON	7. depression	ATT	assertion	VAL	positive	1	0	0

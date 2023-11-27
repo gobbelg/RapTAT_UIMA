@@ -1,0 +1,123 @@
+# CommentMarker	Field	ShortOption
+# SHORTOPT	ANNOTATION_APP_SHORTOPT	.	.	.	.	a
+# SHORTOPT	ATTRIBUTE_TAGGER_PATHS_SHORTOPT	.	.	b
+# SHORTOPT	CONCEPTS_FILEPATH_SHORTOPT	.	.	.	c
+# SHORTOPT	DICTIONARY_FILEPATH_SHORTOPT.	.	.	d
+# SHORTOPT	CONTEXT_SIFTER_TEXT_SHORTOPT.	.	.	e
+# SHORTOPT	CONTEXT_SIFTER_FILE_SHORTOPT.	.	.	f
+# SHORTOPT	ATTRIBUTE_CONFLICT_MANAGERS_SHORTOPT	g
+# SHORTOPT	HELP_SHORTOPT	.	.	.	.	.	.	h
+# SHORTOPT	SENTENCE_FILTER_SHORTOPT	.	.	.	i
+# SHORTOPT	STOP_INDEX_SHORTOPT	.	.	.	.	.	j
+# SHORTOPT 	SENTENCE_CONTEXT_ANALYZER	.	.	.	k
+# SHORTOPT	TOKEN_SEQUENCE_FINDER_METHOD_SHORTOPT	m
+# SHORTOPT	PROPERTIES_PARSE_LONGOPT.	.	.	.	p 
+# SHORTOPT	TRAINING_DATA_FILEPATH_SHORTOPT	.	.	r
+# SHORTOPT	SCHEMA_FILEPATH_SHORTOPT.	.	.	.	s
+# SHORTOPT	TRAINING_GROUP_SIZE_SHORTOPT.	.	.	u
+# SHORTOPT	SECTION_MATCH_TEXT_SHORTOPT	.	.	.	v
+# SHORTOPT	SECTION_MATCH_FILE_SHORTOPT	.	.	.	w
+# SHORTOPT	START_INDEX_SHORTOPT.	.	.	.	.	x
+# SHORTOPT	SENTENCE_MATCH_TEXT_SHORTOPT.	.	.	y
+# SHORTOPT	SENTENCE_MATCH_FILE_SHORTOPT.	.	.	z
+
+
+
+# Path to training data file with groups for cv
+-r "C:\Users\vhatvhgobbeg\Documents\SiewProject\AKICVTxtAndXML\A_CrossValidationGroups.csv"
+
+
+
+# Path to schema file
+#
+# Property descriptor requires proper upper and lower case: TRUE
+# Property descriptor must be surrounded by quotes: FALSE 
+# Allows multiple descriptors: FALSE
+#
+-s "C:\Users\vhatvhgobbeg\Documents\SiewProject\AKIProjectSchemaNoUncertain.xml"
+
+
+
+# Training group size
+-u 0
+
+
+
+# Application used to create annotations (either Knowtator or eHost)
+-a eHost
+
+
+
+# Path to acceptable concepts
+#
+# Property descriptor requires proper upper and lower case: TRUE
+# Property descriptor must be surrounded by quotes: FALSE
+# Allows multiple descriptors: FALSE
+# Default value if no option provided: All concepts in schema included
+#
+-c "C:\Users\vhatvhgobbeg\Documents\SiewProject\AcceptableConcepts_160606.txt"
+
+
+
+# Path to dictionary file
+# Property descriptor requires proper upper and lower case: TRUE
+# Property descriptor must be surrounded by quotes: FALSE
+# Allows multiple descriptors: FALSE
+#
+-d "C:\Users\vhatvhgobbeg\Documents\SiewProject\facilitatorBlockerDictionary_Updated_v05_170120.txt"
+
+
+
+# Start index for options for running cv
+-x 56
+
+
+
+# Stop index for options for running cv (option at stop index is exclude)
+-j 57
+
+
+
+# Paths to attribute taggers
+#
+# Property descriptor requires proper upper and lower case: TRUE
+# Property descriptor must be surrounded by quotes: FALSE
+# Allows multiple descriptors: TRUE
+# Multiple descriptor separator character: ^
+# Default value if no option provided: Null, no attribute taggers used
+#
+-b "C:\Users\vhatvhgobbeg\Documents\SiewProject\CueScopeSolution_Rd00_CSTrainingFeatures_UnprocessedTokens_v01_160721_175700.atsn"
+
+
+
+# Fully qualified names representing attribute conflict managers
+-g src.main.gov.va.vha09.grecc.raptat.gg.core.attributeconflictmanagers.AssertionConflictManager
+
+
+
+# Token sequence finder method
+-m PROBABILISTIC
+
+
+
+#### Use only option -v OR -w (or neither), but not both ####
+# Section matcher text
+-v "allergy:^\\s*(?:\\w+\\s+)?(?:allerg|allrg|alerg|alleg|adverse|advrs).*"
+
+
+
+
+#### Use only option -y OR -z (or neither), but not both ####
+# Sentence matcher text
+-y "allergy:^\\s*(?:\\w+\\s+)?(?:allerg|allrg|alerg|alleg|adverse|advrs).*" 
+
+
+# Set sentence context analyzers.
+#
+# Property descriptor requires proper upper and lower case: FALSE
+# Property descriptor must be surrounded by quotes: FALSE
+# Allows multiple descriptors: TRUE
+# Multiple descriptor separator character: ^
+#
+-k "attributeName:assertionstatus, sentenceContextName:allergy, defaultAttributeValue:negative, contextAssignedAttributeValue:positive, returnDefault:false"^"attributeName:withinmedlist, sentenceContextName:medSectionTag, defaultAttributeValue:no, contextAssignedAttributeValue:yes, returnDefault:true"
+

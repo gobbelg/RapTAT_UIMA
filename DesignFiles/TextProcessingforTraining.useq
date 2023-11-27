@@ -1,0 +1,306 @@
+<sequence-diagram version="1.0.11" icons="true" automaticImage="PNG">  
+  <object id="1" language="java" name="src.main.gov.va.vha09.grecc.raptat.core.TrainingWindow.TrainRaptatButtonListener" 
+    project="RapTAT_Checkout" file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/core/TrainingWindow.java" 
+    binary="false" label="trainRaptatButtonListener" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="408" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="206" x="5" y="158"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="63" width="206" x="5" y="78"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="2082" width="206" x="5" y="252"/>    
+    </execution>  
+  </object>  
+  <object id="13" language="java" name="src.main.gov.va.vha09.grecc.raptat.core.TrainingProcessor" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/core/TrainingProcessor.java" binary="false" 
+    label="trainingProcessor" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="372" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="192" x="215" y="179"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="21" width="192" x="215" y="99"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="1970" width="192" x="215" y="273"/>    
+    </execution>    
+    <execution id="23">      
+      <position height="1000" width="7" x="308" y="1222"/>    
+    </execution>    
+    <execution id="12">      
+      <position height="21" width="192" x="215" y="2292"/>    
+    </execution>  
+  </object>  
+  <object id="28" language="java" name="src.main.gov.va.vha09.grecc.raptat.importer.xml.XMLImporter" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/importer/xml/XMLImporter.java" binary="false" 
+    label="theImporter" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="752" y="0"/>    
+    <execution id="15">      
+      <position height="21" width="227" x="641" y="317"/>    
+    </execution>    
+    <execution id="19">      
+      <position height="21" width="227" x="411" y="1062"/>    
+    </execution>  
+  </object>  
+  <object id="29" language="java" name="java.util.ArrayList" project="I2B2_Importer" 
+    file="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar" binary="true" 
+    label="trainingGroups" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="857" y="0"/>    
+    <execution id="21">      
+      <position height="21" width="110" x="642" y="1129"/>    
+    </execution>  
+  </object>  
+  <object id="30" language="java" name="src.main.gov.va.vha09.grecc.raptat.textanalysis.TextAnalyzer" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/textanalysis/TextAnalyzer.java" binary="false" 
+    label="theAnalyzer" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="599" y="0"/>    
+    <execution id="17">      
+      <position height="580" width="226" x="411" y="377"/>    
+    </execution>    
+    <execution id="47">      
+      <position height="63" width="7" x="521" y="581"/>    
+    </execution>    
+    <execution id="40">      
+      <position height="21" width="7" x="521" y="720"/>    
+    </execution>    
+    <execution id="36">      
+      <position height="21" width="7" x="866" y="501"/>    
+    </execution>    
+    <execution id="44">      
+      <position height="21" width="7" x="866" y="862"/>    
+    </execution>    
+    <execution id="25">      
+      <position height="46" width="226" x="756" y="1346"/>    
+    </execution>    
+    <execution id="52">      
+      <position height="63" width="226" x="756" y="1401"/>    
+    </execution>    
+    <execution id="55">      
+      <position height="447" width="226" x="756" y="1487"/>    
+    </execution>  
+  </object>  
+  <object id="58" language="java" name="src.main.gov.va.vha09.grecc.raptat.textanalysis.RaptatDocument" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/textanalysis/RaptatDocument.java" binary="false" 
+    label="theDocument" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="806" y="0"/>    
+    <execution id="49">      
+      <position height="21" width="226" x="872" y="602"/>    
+    </execution>    
+    <execution id="34">      
+      <position height="21" width="226" x="986" y="427"/>    
+    </execution>    
+    <execution id="42">      
+      <position height="21" width="226" x="986" y="769"/>    
+    </execution>    
+    <execution id="46">      
+      <position height="21" width="226" x="986" y="915"/>    
+    </execution>    
+    <execution id="51">      
+      <position height="21" width="226" x="986" y="1350"/>    
+    </execution>    
+    <execution id="54">      
+      <position height="21" width="226" x="986" y="1422"/>    
+    </execution>  
+  </object>  
+  <object id="59" language="java" name="java.util.ArrayList" project="I2B2_Importer" 
+    file="/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar" binary="true" 
+    label="theSentences" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="768" y="0"/>    
+    <execution id="32">      
+      <position height="21" width="110" x="1102" y="398"/>    
+    </execution>    
+    <execution id="38">      
+      <position height="21" width="110" x="1216" y="553"/>    
+    </execution>  
+  </object>  
+  <object id="60" language="java" name="src.main.gov.va.vha09.grecc.raptat.textanalysis.PhraseTokenIntegrator" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/textanalysis/PhraseTokenIntegrator.java" 
+    binary="false" label="phraseTokenIntegrator" type="class" autoSize="true">    
+    <position height="0" width="0" x="0" y="0"/>    
+    <execution id="57">      
+      <position height="405" width="226" x="1330" y="1508"/>    
+    </execution>    
+    <execution id="64">      
+      <position height="21" width="7" x="1440" y="1871"/>    
+    </execution>    
+    <execution id="62">      
+      <position height="265" width="7" x="1440" y="1538"/>    
+    </execution>    
+    <execution id="66">      
+      <position height="178" width="7" x="1443" y="1604"/>    
+    </execution>    
+    <execution id="68">      
+      <position height="21" width="7" x="1446" y="1673"/>    
+    </execution>    
+    <execution id="70">      
+      <position height="21" width="7" x="1443" y="1740"/>    
+    </execution>  
+  </object>  
+  <object id="71" language="java" 
+    name="src.main.gov.va.vha09.grecc.raptat.algorithms.sequenceidentification.probabilistic.ProbabilisticSequenceIDTrainer" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/algorithms/sequenceidentification/probabilistic/ProbabilisticSequenceIDTrainer.java" 
+    binary="false" label="probabilisticSequenceIDTrainer" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="1383" y="0"/>    
+    <execution id="27">      
+      <position height="180" width="383" x="1560" y="2021"/>    
+    </execution>    
+    <execution id="73">      
+      <position height="117" width="7" x="1748" y="2063"/>    
+    </execution>    
+    <execution id="75">      
+      <position height="21" width="7" x="1751" y="2138"/>    
+    </execution>  
+  </object>  
+  <message id="3" 
+    operation="initializeTrainers(src.main.gov.va.vha09.grecc.raptat.datastructures.TrainingMethodOptions):void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" 
+    operation="TrainingProcessor(src.main.gov.va.vha09.grecc.raptat.datastructures.TokenTrainingOptions,java.util.HashSet&lt;java.lang.String&gt;,java.io.File)">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" 
+    operation="buildAnnotationTrainingList(java.util.List&lt;java.lang.String&gt;,java.util.List&lt;java.lang.String&gt;,java.util.HashSet&lt;java.lang.String&gt;):java.util.List&lt;AnnotationGroup&gt;">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="11" 
+    operation="trainRaptat(java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotationGroup&gt;,boolean,boolean):void">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="12"/>  
+  </message>  
+  <message id="14" operation="XMLImporter()">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="15"/>  
+  </message>  
+  <message id="16" 
+    operation="processDocument(java.lang.String):src.main.gov.va.vha09.grecc.raptat.textanalysis.RaptatDocument">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="17"/>  
+  </message>  
+  <message id="18" 
+    operation="importAnnotations(java.lang.String,java.lang.String,java.util.HashSet&lt;java.lang.String&gt;):java.util.List&lt;AnnotatedPhrase&gt;">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="19"/>  
+  </message>  
+  <message id="20" operation="add(E):boolean">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="21"/>  
+  </message>  
+  <message id="22" 
+    operation="prepareTrainingData(java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotationGroup&gt;):java.util.List&lt;AnnotationGroup&gt;">    
+    <end type="SOURCE" refId="10"/>    
+    <end type="TARGET" refId="23"/>  
+  </message>  
+  <message id="24" 
+    operation="updateTrainingGroups(java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotationGroup&gt;):void">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="25"/>  
+  </message>  
+  <message id="26" 
+    operation="generateUnlabeledHashTree(src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotationGroup):void">    
+    <end type="SOURCE" refId="23"/>    
+    <end type="TARGET" refId="27"/>  
+  </message>  
+  <message id="31" operation="ArrayList(java.util.Collection&lt;? extends E&gt;)">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="32"/>  
+  </message>  
+  <message id="33" operation="RaptatDocument()">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="34"/>  
+  </message>  
+  <message id="35" 
+    operation="getSentenceTokens(java.lang.String,opennlp.tools.util.Span):src.main.gov.va.vha09.grecc.raptat.datastructures.Pair&lt;List&lt;Token&gt;,List&lt;Token&gt;&gt;">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="36"/>  
+  </message>  
+  <message id="37" operation="add(int,E):void">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="38"/>  
+  </message>  
+  <message id="39" 
+    operation="generateIndexedTree(java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.Token&gt;):src.main.gov.va.vha09.grecc.raptat.datastructures.IndexedTree&lt;IndexedObject&lt;Token&gt;&gt;" 
+    x="920" y="686">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="40"/>  
+  </message>  
+  <message id="41" 
+    operation="setProcessedTokens(src.main.gov.va.vha09.grecc.raptat.datastructures.IndexedTree&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.IndexedObject&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.Token&gt;&gt;):void">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="42"/>  
+  </message>  
+  <message id="43" 
+    operation="generateIndexedTree(java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.Token&gt;):src.main.gov.va.vha09.grecc.raptat.datastructures.IndexedTree&lt;IndexedObject&lt;Token&gt;&gt;">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="44"/>  
+  </message>  
+  <message id="45" 
+    operation="setRawTokens(src.main.gov.va.vha09.grecc.raptat.datastructures.IndexedTree&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.IndexedObject&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.Token&gt;&gt;):void">    
+    <end type="SOURCE" refId="17"/>    
+    <end type="TARGET" refId="46"/>  
+  </message>  
+  <message id="48" 
+    operation="setSentences(java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase&gt;):void">    
+    <end type="SOURCE" refId="47"/>    
+    <end type="TARGET" refId="49"/>  
+  </message>  
+  <message id="50" 
+    operation="regenerateProcessedTokens(boolean,boolean,boolean,java.util.HashSet&lt;java.lang.String&gt;):java.util.List&lt;Token&gt;">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="51"/>  
+  </message>  
+  <message id="53" 
+    operation="setProcessedTokens(src.main.gov.va.vha09.grecc.raptat.datastructures.IndexedTree&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.IndexedObject&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.Token&gt;&gt;):void">    
+    <end type="SOURCE" refId="52"/>    
+    <end type="TARGET" refId="54"/>  
+  </message>  
+  <message id="56" 
+    operation="addTokensToAnnotations(java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase&gt;,src.main.gov.va.vha09.grecc.raptat.textanalysis.RaptatDocument,boolean,int):void">    
+    <end type="SOURCE" refId="55"/>    
+    <end type="TARGET" refId="57"/>  
+  </message>  
+  <message id="61" 
+    operation="getPhraseTokens(src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase,src.main.gov.va.vha09.grecc.raptat.datastructures.IndexedTree&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.IndexedObject&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.Token&gt;&gt;,boolean,int):java.util.List&lt;Token&gt;">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="62"/>  
+  </message>  
+  <message id="63" 
+    operation="splitPhrase(src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase,java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.Token&gt;,int):java.util.Collection&lt;? extends AnnotatedPhrase&gt;">    
+    <end type="SOURCE" refId="57"/>    
+    <end type="TARGET" refId="64"/>  
+  </message>  
+  <message id="65" 
+    operation="getSingleTokenForPhrase(src.main.gov.va.vha09.grecc.raptat.datastructures.Token,java.lang.String,int,int,boolean):src.main.gov.va.vha09.grecc.raptat.datastructures.Token">    
+    <end type="SOURCE" refId="62"/>    
+    <end type="TARGET" refId="66"/>  
+  </message>  
+  <message id="67" operation="getPhraseStartOverlap(java.lang.String,int,int,java.lang.String,int,int):java.lang.String">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="68"/>  
+  </message>  
+  <message id="69" operation="getPhraseEndOverlap(java.lang.String,int,int):java.lang.String">    
+    <end type="SOURCE" refId="66"/>    
+    <end type="TARGET" refId="70"/>  
+  </message>  
+  <message id="72" 
+    operation="generateUnlabeledHashTree(src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotationGroup):void">    
+    <end type="SOURCE" refId="27"/>    
+    <end type="TARGET" refId="73"/>  
+  </message>  
+  <message id="74" 
+    operation="buildUnlabeledHashTree(java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase&gt;,java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase&gt;,java.lang.String):src.main.gov.va.vha09.grecc.raptat.datastructures.hashtrees.UnlabeledHashTree">    
+    <end type="SOURCE" refId="73"/>    
+    <end type="TARGET" refId="75"/>  
+  </message>
+</sequence-diagram>

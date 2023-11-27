@@ -1,0 +1,89 @@
+<sequence-diagram version="1.0.11" icons="true">  
+  <object id="1" language="java" name="src.main.gov.va.vha09.grecc.raptat.core.TrainingProcessor" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/core/TrainingProcessor.java" binary="false" 
+    label="trainingProcessor" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="86" y="0"/>    
+    <execution id="2">      
+      <position height="63" width="192" x="5" y="166"/>    
+    </execution>    
+    <execution id="5">      
+      <position height="261" width="192" x="5" y="269"/>    
+    </execution>    
+    <execution id="8">      
+      <position height="63" width="192" x="5" y="651"/>    
+    </execution>    
+    <execution id="11">      
+      <position height="63" width="192" x="5" y="711"/>    
+    </execution>  
+  </object>  
+  <object id="14" language="java" 
+    name="src.main.gov.va.vha09.grecc.raptat.algorithms.sequenceidentification.probabilistic.ProbabilisticSequenceIDTrainer" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/algorithms/sequenceidentification/probabilistic/ProbabilisticSequenceIDTrainer.java" 
+    binary="false" label="probabilisticSequenceIDTrainer" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="345" y="0"/>    
+    <execution id="4">      
+      <position height="21" width="383" x="201" y="187"/>    
+    </execution>    
+    <execution id="7">      
+      <position height="219" width="383" x="201" y="290"/>    
+    </execution>    
+    <execution id="10">      
+      <position height="21" width="383" x="201" y="672"/>    
+    </execution>    
+    <execution id="13">      
+      <position height="21" width="383" x="201" y="732"/>    
+    </execution>    
+    <execution id="16">      
+      <position height="156" width="7" x="389" y="332"/>    
+    </execution>  
+  </object>  
+  <object id="21" language="java" name="src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/datastructures/AnnotatedPhrase.java" binary="false" 
+    label="annotatedPhrase" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="-574" y="0"/>    
+    <execution id="18">      
+      <position height="21" width="238" x="700" y="380"/>    
+    </execution>  
+  </object>  
+  <object id="22" language="java" name="src.main.gov.va.vha09.grecc.raptat.datastructures.hashtrees.LabeledHashTree" 
+    project="RapTAT_Checkout" 
+    file="/RapTAT_Checkout/trunk/src/main/gov/va/vha09/grecc/raptat/datastructures/hashtrees/LabeledHashTree.java" 
+    binary="false" label="labeledHashTree" type="class" autoSize="true">    
+    <position height="-1" width="-1" x="924" y="0"/>    
+    <execution id="20">      
+      <position height="21" width="287" x="942" y="446"/>    
+    </execution>  
+  </object>  
+  <message id="3" operation="clearTraining():void">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="4"/>  
+  </message>  
+  <message id="6" operation="updateTraining(src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotationGroup):void">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="7"/>  
+  </message>  
+  <message id="9" operation="addUnlabeledToLabeledTree():void">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </message>  
+  <message id="12" operation="updateProbabilities():void">    
+    <end type="SOURCE" refId="11"/>    
+    <end type="TARGET" refId="13"/>  
+  </message>  
+  <message id="15" 
+    operation="updatePrimaryTree(java.util.List&lt;src.main.gov.va.vha09.grecc.raptat.datastructures.AnnotatedPhrase&gt;):src.main.gov.va.vha09.grecc.raptat.datastructures.hashtrees.LabeledHashTree">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="16"/>  
+  </message>  
+  <message id="17" operation="getProcessedTokens():java.util.List&lt;Token&gt;">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="18"/>  
+  </message>  
+  <message id="19">    
+    <end type="SOURCE" refId="16"/>    
+    <end type="TARGET" refId="20"/>  
+  </message>
+</sequence-diagram>
