@@ -426,26 +426,16 @@ public class UnlabeledHashTree extends HashTree<UnlabeledHashTree>
 
     curTree.unlabeledOccurrences += Constants.MAX_LABELED_SCORE;
 
-    // Recursively add the tokens fromm curTokenPosition
-    // on until either we reach MAX_TOKENS_DEFAULT or
-    // we reach the end of the sentence, whichever comes
-    // first.
+     /*
+     Recursively add the tokens fromm curTokenPosition
+     on until either we reach MAX_TOKENS_DEFAULT or
+     we reach the end of the sentence, whichever comes
+     first.
+     */
     if (curTokenPosition < sentenceTokens.size() - 1 && this.treeDepth < maxTokens - 1) {
       curTree.addUnlabeledSequence(sentenceTokens, ++curTokenPosition, maxTokens);
     }
   }
-
-  // public String toString()
-  // {
-  // StringBuffer result = new StringBuffer();
-  //
-  // for (HashTreeFields curResult : this)
-  // {
-  // result.append(curResult);
-  // }
-  //
-  // return new String(result);
-  // }
 
 
   /****************************************************************

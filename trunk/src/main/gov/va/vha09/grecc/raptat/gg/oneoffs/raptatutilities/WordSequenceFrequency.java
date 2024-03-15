@@ -49,7 +49,6 @@ public class WordSequenceFrequency {
         int sentenceSize = sentenceTokens.size();
         for (int curTokenIndex = 0; curTokenIndex < sentenceSize; curTokenIndex++) {
           theFrequencyTree.addUnlabeledSequence(sentenceTokens, curTokenIndex, -1, maxPhraseLength);
-
         }
       }
     }
